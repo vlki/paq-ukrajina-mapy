@@ -20,15 +20,23 @@ export default function EmbedCapacityElementarySchools({ baseUrl }) {
 
   const [selectedOrpId, setSelectedOrpId] = React.useState(null);
 
+  const categories = [
+    { label: "0-60 %", color: "#FEF0D9" },
+    { label: "60-70 %", color: "#F5CAC1" },
+    { label: "70-80 %", color: "#DF8B97" },
+    { label: "80-90 %", color: "#C0516E" },
+    { label: "90-100 %", color: "#990F44" },
+  ];
+
   const fillByOrpId = React.useMemo(() => {
     if (!capacitiesData) {
       return {};
     }
 
     const capacityColor = d3
-      .scaleLinear()
-      .domain([50, 100])
-      .range(["#FEF0D9", "#990F44"]);
+      .scaleThreshold()
+      .domain([60, 70, 80, 90, 100])
+      .range(["#FEF0D9", "#F5CAC1", "#DF8B97", "#C0516E", "#990F44"]);
 
     return capacitiesData.reduce((carry, orpCapacity) => {
       return {
@@ -56,7 +64,17 @@ export default function EmbedCapacityElementarySchools({ baseUrl }) {
       <main className={styles.container} ref={containerRef}>
         <h1>Naplněnost základních škol v&nbsp;ORP</h1>
 
-        <div className={styles.legend}></div>
+        <div className={styles.legend}>
+          {categories.map((category) => (
+            <div key={category.color} className="legend-item">
+              <span
+                className="dot"
+                style={{ backgroundColor: category.color }}
+              ></span>
+              {category.label}
+            </div>
+          ))}
+        </div>
 
         <EmbedMap
           orpData={orpData}
