@@ -43,6 +43,10 @@ export default function EmbedCapacityPreschools() {
     [capacitiesData]
   );
 
+  if (!orpData || !krajeData || !capacitiesData) {
+    return null;
+  }
+
   return (
     <div className={styles.container}>
       <Head>

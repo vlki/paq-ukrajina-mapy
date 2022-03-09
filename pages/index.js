@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.scss";
 
-export default function Home() {
+export default function Home({ isProduction }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -24,7 +24,7 @@ export default function Home() {
             <div
               style={{ flex: "1 0 0px", marginRight: 30 }}
               dangerouslySetInnerHTML={{
-                __html: createEmbedCode(embedConfig),
+                __html: createEmbedCode(embedConfig, isProduction),
               }}
             ></div>
             <div style={{ flex: "1 0 0px" }}>
@@ -37,7 +37,7 @@ export default function Home() {
                   padding: 10,
                 }}
               >
-                <code>{createEmbedCode(embedConfig).trim()}</code>
+                <code>{createEmbedCode(embedConfig, isProduction).trim()}</code>
               </pre>
             </div>
           </div>
@@ -47,21 +47,31 @@ export default function Home() {
   );
 }
 
+export async function getStaticProps() {
+  return {
+    props: {
+      isProduction: process.env.NODE_ENV === "production",
+    },
+  };
+}
+
 const embedConfigs = [
   {
-    url: "/embed/kapacity-zs",
+    src: "/embed/kapacity-zs",
     id: "paq-ukrajina-kapacita-zs",
   },
   {
-    url: "/embed/kapacity-ms",
+    src: "/embed/kapacity-ms",
     id: "paq-ukrajina-kapacita-ms",
   },
 ];
 
-const createEmbedCode = (embedConfig) => {
-  // TODO: use absolute url in production
+const createEmbedCode = (embedConfig, isProduction) => {
+  let src = isProduction ? "//vlki.github.io/paq-ukrajina-mapy" : "";
+  src += embedConfig.src;
+
   return `
-<iframe src="${embedConfig.url}" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="450" id="${embedConfig.id}"></iframe>
+<iframe src="${src}" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="450" id="${embedConfig.id}"></iframe>
 <script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["paq-ukrajina-embed-height"])for(var e in a.data["paq-ukrajina-embed-height"])if("${embedConfig.id}"==e){var d=document.querySelector("#${embedConfig.id}");d&&(d.style.height=a.data["paq-ukrajina-embed-height"][e]+"px")}});</script>
   `;
 };
