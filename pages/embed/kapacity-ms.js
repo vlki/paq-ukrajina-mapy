@@ -12,10 +12,10 @@ import {
 } from "../../lib/embed/hooks";
 import styles from "../../styles/Embed.module.scss";
 
-export default function EmbedCapacityPreschools() {
-  const orpData = useOrpData();
-  const krajeData = useKrajeData();
-  const capacitiesData = useCapacitiesData();
+export default function EmbedCapacityPreschools({ baseUrl }) {
+  const orpData = useOrpData(baseUrl);
+  const krajeData = useKrajeData(baseUrl);
+  const capacitiesData = useCapacitiesData(baseUrl);
   const { containerRef } = usePostMessageWithHeight("paq-ukrajina-kapacita-ms");
 
   const [selectedOrpId, setSelectedOrpId] = React.useState(null);
@@ -123,4 +123,15 @@ export default function EmbedCapacityPreschools() {
       </main>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      baseUrl:
+        process.env.NODE_ENV === "production"
+          ? "https://vlki.github.io/paq-ukrajina-mapy"
+          : "",
+    },
+  };
 }

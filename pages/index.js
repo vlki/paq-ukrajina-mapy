@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.scss";
 
-export default function Home({ isProduction }) {
+export default function Home({ baseUrl }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -24,7 +24,7 @@ export default function Home({ isProduction }) {
             <div
               style={{ flex: "1 0 0px", marginRight: 30 }}
               dangerouslySetInnerHTML={{
-                __html: createEmbedCode(embedConfig, isProduction),
+                __html: createEmbedCode(embedConfig, baseUrl),
               }}
             ></div>
             <div style={{ flex: "1 0 0px" }}>
@@ -37,7 +37,7 @@ export default function Home({ isProduction }) {
                   padding: 10,
                 }}
               >
-                <code>{createEmbedCode(embedConfig, isProduction).trim()}</code>
+                <code>{createEmbedCode(embedConfig, baseUrl).trim()}</code>
               </pre>
             </div>
           </div>
@@ -50,7 +50,10 @@ export default function Home({ isProduction }) {
 export async function getStaticProps() {
   return {
     props: {
-      isProduction: process.env.NODE_ENV === "production",
+      baseUrl:
+        process.env.NODE_ENV === "production"
+          ? "https://vlki.github.io/paq-ukrajina-mapy"
+          : "",
     },
   };
 }
@@ -66,9 +69,8 @@ const embedConfigs = [
   },
 ];
 
-const createEmbedCode = (embedConfig, isProduction) => {
-  let src = isProduction ? "//vlki.github.io/paq-ukrajina-mapy" : "";
-  src += embedConfig.src;
+const createEmbedCode = (embedConfig, baseUrl) => {
+  const src = baseUrl + embedConfig.src;
 
   return `
 <iframe src="${src}" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="450" id="${embedConfig.id}"></iframe>
