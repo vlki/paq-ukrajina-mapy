@@ -21,7 +21,7 @@ export default function EmbedAccommodation({ baseUrl }) {
   const [selectedOkresId, setSelectedOkresId] = React.useState(null);
 
   const categories = [
-    { label: "0-500", color: "#990F44" },
+    { label: "500 a méně", color: "#990F44" },
     { label: "500-1000", color: "#C0516E" },
     { label: "1000-1500", color: "#DF8B97" },
     { label: "1500-2000", color: "#F5CAC1" },
