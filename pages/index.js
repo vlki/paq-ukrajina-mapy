@@ -67,6 +67,10 @@ const embedConfigs = [
     src: "/embed/kapacity-ms",
     id: "paq-ukrajina-kapacita-ms",
   },
+  {
+    src: "/embed/bydleni",
+    id: "paq-ukrajina-bydleni",
+  },
 ];
 
 const createEmbedCode = (embedConfig, baseUrl) => {

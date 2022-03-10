@@ -3,13 +3,13 @@ import Head from "next/head";
 import * as d3 from "d3";
 import { keyBy } from "lodash";
 
-import EmbedMap from "../../lib/embed/components/EmbedMap";
+import EmbedOrpMap from "../../lib/embed/components/EmbedOrpMap";
+import { usePostMessageWithHeight } from "../../lib/embed/hooks";
 import {
   useCapacitiesData,
   useKrajeData,
   useOrpData,
-  usePostMessageWithHeight,
-} from "../../lib/embed/hooks";
+} from "../../lib/data/hooks";
 import styles from "../../styles/Embed.module.scss";
 
 export default function EmbedCapacityPreschools({ baseUrl }) {
@@ -77,7 +77,7 @@ export default function EmbedCapacityPreschools({ baseUrl }) {
         </div>
 
         <div className={styles.mapWrapper}>
-          <EmbedMap
+          <EmbedOrpMap
             orpData={orpData}
             krajeData={krajeData}
             selectedOrpId={selectedOrpId}
