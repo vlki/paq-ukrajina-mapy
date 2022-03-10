@@ -1,0 +1,541 @@
+[
+    {
+        "id": 3100,
+        "flats_sreality": 3977,
+        "flats_municipal": 1258,
+        "hotel_beds": 5729,
+        "total_beds": 26669
+    },
+    {
+        "id": 3201,
+        "flats_sreality": 12,
+        "flats_municipal": 113,
+        "hotel_beds": 174,
+        "total_beds": 674
+    },
+    {
+        "id": 3202,
+        "flats_sreality": 40,
+        "flats_municipal": 16,
+        "hotel_beds": 0,
+        "total_beds": 223
+    },
+    {
+        "id": 3203,
+        "flats_sreality": 87,
+        "flats_municipal": 173,
+        "hotel_beds": 59,
+        "total_beds": 1100
+    },
+    {
+        "id": 3204,
+        "flats_sreality": 27,
+        "flats_municipal": 97,
+        "hotel_beds": 102,
+        "total_beds": 600
+    },
+    {
+        "id": 3205,
+        "flats_sreality": 10,
+        "flats_municipal": 47,
+        "hotel_beds": 0,
+        "total_beds": 227
+    },
+    {
+        "id": 3206,
+        "flats_sreality": 53,
+        "flats_municipal": 29,
+        "hotel_beds": 36,
+        "total_beds": 365
+    },
+    {
+        "id": 3207,
+        "flats_sreality": 82,
+        "flats_municipal": 56,
+        "hotel_beds": 436,
+        "total_beds": 987
+    },
+    {
+        "id": 3208,
+        "flats_sreality": 87,
+        "flats_municipal": 25,
+        "hotel_beds": 0,
+        "total_beds": 447
+    },
+    {
+        "id": 3209,
+        "flats_sreality": 65,
+        "flats_municipal": 44,
+        "hotel_beds": 389,
+        "total_beds": 825
+    },
+    {
+        "id": 3210,
+        "flats_sreality": 92,
+        "flats_municipal": 10,
+        "hotel_beds": 257,
+        "total_beds": 665
+    },
+    {
+        "id": 3211,
+        "flats_sreality": 50,
+        "flats_municipal": 70,
+        "hotel_beds": 780,
+        "total_beds": 1260
+    },
+    {
+        "id": 3212,
+        "flats_sreality": 17,
+        "flats_municipal": 20,
+        "hotel_beds": 36,
+        "total_beds": 184
+    },
+    {
+        "id": 3301,
+        "flats_sreality": 143,
+        "flats_municipal": 108,
+        "hotel_beds": 1045,
+        "total_beds": 2047
+    },
+    {
+        "id": 3302,
+        "flats_sreality": 16,
+        "flats_municipal": 45,
+        "hotel_beds": 1253,
+        "total_beds": 1497
+    },
+    {
+        "id": 3303,
+        "flats_sreality": 23,
+        "flats_municipal": 60,
+        "hotel_beds": 541,
+        "total_beds": 874
+    },
+    {
+        "id": 3304,
+        "flats_sreality": 32,
+        "flats_municipal": 48,
+        "hotel_beds": 131,
+        "total_beds": 453
+    },
+    {
+        "id": 3305,
+        "flats_sreality": 37,
+        "flats_municipal": 90,
+        "hotel_beds": 465,
+        "total_beds": 973
+    },
+    {
+        "id": 3306,
+        "flats_sreality": 9,
+        "flats_municipal": 53,
+        "hotel_beds": 246,
+        "total_beds": 494
+    },
+    {
+        "id": 3307,
+        "flats_sreality": 13,
+        "flats_municipal": 43,
+        "hotel_beds": 95,
+        "total_beds": 319
+    },
+    {
+        "id": 3308,
+        "flats_sreality": 39,
+        "flats_municipal": 171,
+        "hotel_beds": 155,
+        "total_beds": 995
+    },
+    {
+        "id": 3401,
+        "flats_sreality": 13,
+        "flats_municipal": 54,
+        "hotel_beds": 36,
+        "total_beds": 302
+    },
+    {
+        "id": 3402,
+        "flats_sreality": 58,
+        "flats_municipal": 74,
+        "hotel_beds": 245,
+        "total_beds": 771
+    },
+    {
+        "id": 3403,
+        "flats_sreality": 146,
+        "flats_municipal": 56,
+        "hotel_beds": 1279,
+        "total_beds": 2088
+    },
+    {
+        "id": 3404,
+        "flats_sreality": 11,
+        "flats_municipal": 70,
+        "hotel_beds": 433,
+        "total_beds": 755
+    },
+    {
+        "id": 3405,
+        "flats_sreality": 297,
+        "flats_municipal": 128,
+        "hotel_beds": 275,
+        "total_beds": 1974
+    },
+    {
+        "id": 3406,
+        "flats_sreality": 19,
+        "flats_municipal": 61,
+        "hotel_beds": 59,
+        "total_beds": 381
+    },
+    {
+        "id": 3407,
+        "flats_sreality": 13,
+        "flats_municipal": 61,
+        "hotel_beds": 36,
+        "total_beds": 332
+    },
+    {
+        "id": 3408,
+        "flats_sreality": 12,
+        "flats_municipal": 42,
+        "hotel_beds": 36,
+        "total_beds": 252
+    },
+    {
+        "id": 3409,
+        "flats_sreality": 66,
+        "flats_municipal": 76,
+        "hotel_beds": 59,
+        "total_beds": 627
+    },
+    {
+        "id": 3410,
+        "flats_sreality": 19,
+        "flats_municipal": 52,
+        "hotel_beds": 89,
+        "total_beds": 373
+    },
+    {
+        "id": 3501,
+        "flats_sreality": 47,
+        "flats_municipal": 95,
+        "hotel_beds": 221,
+        "total_beds": 789
+    },
+    {
+        "id": 3502,
+        "flats_sreality": 84,
+        "flats_municipal": 98,
+        "hotel_beds": 828,
+        "total_beds": 1556
+    },
+    {
+        "id": 3503,
+        "flats_sreality": 193,
+        "flats_municipal": 101,
+        "hotel_beds": 256,
+        "total_beds": 1430
+    },
+    {
+        "id": 3504,
+        "flats_sreality": 68,
+        "flats_municipal": 74,
+        "hotel_beds": 895,
+        "total_beds": 1465
+    },
+    {
+        "id": 3505,
+        "flats_sreality": 92,
+        "flats_municipal": 107,
+        "hotel_beds": 694,
+        "total_beds": 1489
+    },
+    {
+        "id": 3506,
+        "flats_sreality": 39,
+        "flats_municipal": 39,
+        "hotel_beds": 280,
+        "total_beds": 592
+    },
+    {
+        "id": 3507,
+        "flats_sreality": 73,
+        "flats_municipal": 29,
+        "hotel_beds": 96,
+        "total_beds": 504
+    },
+    {
+        "id": 3508,
+        "flats_sreality": 212,
+        "flats_municipal": 66,
+        "hotel_beds": 29,
+        "total_beds": 1142
+    },
+    {
+        "id": 3509,
+        "flats_sreality": 155,
+        "flats_municipal": 86,
+        "hotel_beds": 316,
+        "total_beds": 1280
+    },
+    {
+        "id": 3510,
+        "flats_sreality": 158,
+        "flats_municipal": 51,
+        "hotel_beds": 119,
+        "total_beds": 955
+    },
+    {
+        "id": 3601,
+        "flats_sreality": 14,
+        "flats_municipal": 38,
+        "hotel_beds": 59,
+        "total_beds": 268
+    },
+    {
+        "id": 3602,
+        "flats_sreality": 159,
+        "flats_municipal": 90,
+        "hotel_beds": 66,
+        "total_beds": 1063
+    },
+    {
+        "id": 3603,
+        "flats_sreality": 41,
+        "flats_municipal": 66,
+        "hotel_beds": 59,
+        "total_beds": 489
+    },
+    {
+        "id": 3604,
+        "flats_sreality": 11,
+        "flats_municipal": 27,
+        "hotel_beds": 0,
+        "total_beds": 152
+    },
+    {
+        "id": 3605,
+        "flats_sreality": 31,
+        "flats_municipal": 116,
+        "hotel_beds": 370,
+        "total_beds": 960
+    },
+    {
+        "id": 3606,
+        "flats_sreality": 104,
+        "flats_municipal": 40,
+        "hotel_beds": 0,
+        "total_beds": 576
+    },
+    {
+        "id": 3607,
+        "flats_sreality": 29,
+        "flats_municipal": 51,
+        "hotel_beds": 293,
+        "total_beds": 613
+    },
+    {
+        "id": 3608,
+        "flats_sreality": 10,
+        "flats_municipal": 52,
+        "hotel_beds": 1337,
+        "total_beds": 1585
+    },
+    {
+        "id": 3609,
+        "flats_sreality": 21,
+        "flats_municipal": 32,
+        "hotel_beds": 132,
+        "total_beds": 344
+    },
+    {
+        "id": 3610,
+        "flats_sreality": 38,
+        "flats_municipal": 88,
+        "hotel_beds": 3392,
+        "total_beds": 3896
+    },
+    {
+        "id": 3611,
+        "flats_sreality": 33,
+        "flats_municipal": 126,
+        "hotel_beds": 336,
+        "total_beds": 972
+    },
+    {
+        "id": 3701,
+        "flats_sreality": 21,
+        "flats_municipal": 62,
+        "hotel_beds": 119,
+        "total_beds": 452
+    },
+    {
+        "id": 3702,
+        "flats_sreality": 716,
+        "flats_municipal": 1165,
+        "hotel_beds": 298,
+        "total_beds": 7821
+    },
+    {
+        "id": 3703,
+        "flats_sreality": 66,
+        "flats_municipal": 80,
+        "hotel_beds": 227,
+        "total_beds": 810
+    },
+    {
+        "id": 3704,
+        "flats_sreality": 37,
+        "flats_municipal": 37,
+        "hotel_beds": 299,
+        "total_beds": 596
+    },
+    {
+        "id": 3705,
+        "flats_sreality": 90,
+        "flats_municipal": 112,
+        "hotel_beds": 192,
+        "total_beds": 1000
+    },
+    {
+        "id": 3706,
+        "flats_sreality": 45,
+        "flats_municipal": 50,
+        "hotel_beds": 66,
+        "total_beds": 445
+    },
+    {
+        "id": 3707,
+        "flats_sreality": 55,
+        "flats_municipal": 27,
+        "hotel_beds": 89,
+        "total_beds": 417
+    },
+    {
+        "id": 3708,
+        "flats_sreality": 45,
+        "flats_municipal": 39,
+        "hotel_beds": 59,
+        "total_beds": 395
+    },
+    {
+        "id": 3709,
+        "flats_sreality": 60,
+        "flats_municipal": 60,
+        "hotel_beds": 0,
+        "total_beds": 480
+    },
+    {
+        "id": 3710,
+        "flats_sreality": 34,
+        "flats_municipal": 59,
+        "hotel_beds": 377,
+        "total_beds": 749
+    },
+    {
+        "id": 3711,
+        "flats_sreality": 53,
+        "flats_municipal": 69,
+        "hotel_beds": 95,
+        "total_beds": 583
+    },
+    {
+        "id": 3712,
+        "flats_sreality": 28,
+        "flats_municipal": 37,
+        "hotel_beds": 155,
+        "total_beds": 415
+    },
+    {
+        "id": 3713,
+        "flats_sreality": 45,
+        "flats_municipal": 44,
+        "hotel_beds": 835,
+        "total_beds": 1191
+    },
+    {
+        "id": 3714,
+        "flats_sreality": 20,
+        "flats_municipal": 162,
+        "hotel_beds": 287,
+        "total_beds": 1015
+    },
+    {
+        "id": 3801,
+        "flats_sreality": 48,
+        "flats_municipal": 108,
+        "hotel_beds": 317,
+        "total_beds": 941
+    },
+    {
+        "id": 3802,
+        "flats_sreality": 89,
+        "flats_municipal": 83,
+        "hotel_beds": 198,
+        "total_beds": 888
+    },
+    {
+        "id": 3803,
+        "flats_sreality": 447,
+        "flats_municipal": 404,
+        "hotel_beds": 96,
+        "total_beds": 3502
+    },
+    {
+        "id": 3804,
+        "flats_sreality": 52,
+        "flats_municipal": 128,
+        "hotel_beds": 95,
+        "total_beds": 816
+    },
+    {
+        "id": 3805,
+        "flats_sreality": 277,
+        "flats_municipal": 144,
+        "hotel_beds": 204,
+        "total_beds": 1888
+    },
+    {
+        "id": 3806,
+        "flats_sreality": 125,
+        "flats_municipal": 74,
+        "hotel_beds": 119,
+        "total_beds": 913
+    },
+    {
+        "id": 3807,
+        "flats_sreality": 573,
+        "flats_municipal": 523,
+        "hotel_beds": 908,
+        "total_beds": 5292
+    },
+    {
+        "id": 3808,
+        "flats_sreality": 41,
+        "flats_municipal": 59,
+        "hotel_beds": 185,
+        "total_beds": 585
+    },
+    {
+        "id": 3809,
+        "flats_sreality": 24,
+        "flats_municipal": 93,
+        "hotel_beds": 622,
+        "total_beds": 1090
+    },
+    {
+        "id": 3810,
+        "flats_sreality": 33,
+        "flats_municipal": 70,
+        "hotel_beds": 768,
+        "total_beds": 1180
+    },
+    {
+        "id": 3811,
+        "flats_sreality": 2,
+        "flats_municipal": 46,
+        "hotel_beds": 347,
+        "total_beds": 540
+    }
+]
