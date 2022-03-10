@@ -21,11 +21,11 @@ export default function EmbedCapacityPreschools({ baseUrl }) {
   const [selectedOrpId, setSelectedOrpId] = React.useState(null);
 
   const categories = [
-    { label: "0-60 %", color: "#FEF0D9" },
-    { label: "60-70 %", color: "#F5CAC1" },
-    { label: "70-80 %", color: "#DF8B97" },
-    { label: "80-90 %", color: "#C0516E" },
-    { label: "90-100 %", color: "#990F44" },
+    { label: "0–60 %", color: "#FEF0D9" },
+    { label: "60–70 %", color: "#C4D3C9" },
+    { label: "70–80 %", color: "#79ABB0" },
+    { label: "80–90 %", color: "#288893" },
+    { label: "90–100 %", color: "#005B6E" },
   ];
 
   const fillByOrpId = React.useMemo(() => {
@@ -36,7 +36,7 @@ export default function EmbedCapacityPreschools({ baseUrl }) {
     const capacityColor = d3
       .scaleThreshold()
       .domain([60, 70, 80, 90, 100])
-      .range(["#FEF0D9", "#F5CAC1", "#DF8B97", "#C0516E", "#990F44"]);
+      .range(["#FEF0D9", "#C4D3C9", "#79ABB0", "#288893", "#005B6E"]);
 
     return capacitiesData.reduce((carry, orpCapacity) => {
       return {
@@ -121,7 +121,7 @@ export default function EmbedCapacityPreschools({ baseUrl }) {
 
         <div className={styles.footer}>
           <div className="footer-item">
-            Zdroj:{" "}
+            Zdroj dat:{" "}
             <a
               href="https://www.paqresearch.cz/"
               target="_blank"
@@ -129,10 +129,7 @@ export default function EmbedCapacityPreschools({ baseUrl }) {
             >
               PAQ&nbsp;Research
             </a>
-          </div>
-          <span className="footer-separator">·</span>
-          <div className="footer-item">
-            Mapa:{" "}
+            ,{" "}
             <a
               href="https://geoportal.cuzk.cz/Default.aspx?lng=CZ&mode=TextMeta&side=dsady_RUIAN_vse&metadataID=CZ-00025712-CUZK_SERIES-MD_RUIAN-STATY-SHP"
               target="_blank"

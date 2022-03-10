@@ -21,11 +21,11 @@ export default function EmbedAccommodation({ baseUrl }) {
   const [selectedOkresId, setSelectedOkresId] = React.useState(null);
 
   const categories = [
-    { label: "500 a méně", color: "#990F44" },
-    { label: "500-1000", color: "#C0516E" },
-    { label: "1000-1500", color: "#DF8B97" },
-    { label: "1500-2000", color: "#F5CAC1" },
-    { label: "2000 a více", color: "#FEF0D9" },
+    { label: "500 a méně", color: "#FEF0D9" },
+    { label: "500–1000", color: "#C4D3C9" },
+    { label: "1000–1500", color: "#79ABB0" },
+    { label: "1500–2000", color: "#288893" },
+    { label: "2000 a více", color: "#005B6E" },
   ];
 
   const fillByOkresId = React.useMemo(() => {
@@ -36,7 +36,7 @@ export default function EmbedAccommodation({ baseUrl }) {
     const color = d3
       .scaleThreshold()
       .domain([500, 1000, 1500, 2000, 100000])
-      .range(["#990F44", "#C0516E", "#DF8B97", "#F5CAC1", "#FEF0D9"]);
+      .range(["#FEF0D9", "#C4D3C9", "#79ABB0", "#288893", "#005B6E"]);
 
     return accommodationData.reduce((carry, okresAccommodation) => {
       return {
@@ -135,7 +135,7 @@ export default function EmbedAccommodation({ baseUrl }) {
 
         <div className={styles.footer}>
           <div className="footer-item">
-            Zdroj:{" "}
+            Zdroj dat:{" "}
             <a
               href="https://www.paqresearch.cz/"
               target="_blank"
@@ -143,10 +143,7 @@ export default function EmbedAccommodation({ baseUrl }) {
             >
               PAQ&nbsp;Research
             </a>
-          </div>
-          <span className="footer-separator">·</span>
-          <div className="footer-item">
-            Mapa:{" "}
+            ,{" "}
             <a
               href="https://geoportal.cuzk.cz/Default.aspx?lng=CZ&mode=TextMeta&side=dsady_RUIAN_vse&metadataID=CZ-00025712-CUZK_SERIES-MD_RUIAN-STATY-SHP"
               target="_blank"
