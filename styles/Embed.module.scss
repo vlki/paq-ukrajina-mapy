@@ -119,3 +119,25 @@
     color: #898989;
   }
 }
+
+@media screen and (max-width: 349.9px) {
+  .tooltipContent {
+    [class~="tooltip-orp"] {
+      [class~="tooltip-orp-name"] {
+        font-size: 10px;
+      }
+
+      [class~="tooltip-region"] {
+        font-size: 10px;
+      }
+    }
+
+    [class~="main-value-line"] {
+      font-size: 10px;
+    }
+
+    [class~="value-line"] {
+      font-size: 10px;
+    }
+  }
+}

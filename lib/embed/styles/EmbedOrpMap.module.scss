@@ -75,7 +75,17 @@
   }
 }
 
-@media screen and (max-width: 299.9px) {
+@media screen and (max-width: 399.9px) {
+  .container {
+    [class~="map-tooltip"] {
+      [class~="tooltip-content"] {
+        max-width: 180px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 349.9px) {
   .container {
     [class~="map-tooltip"] {
       [class~="tooltip-content"] {
