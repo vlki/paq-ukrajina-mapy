@@ -97,6 +97,10 @@ const embedConfigs = [
     src: "/embed/luzka-hotely",
     id: "paq-ukrajina-luzka-hotely",
   },
+  {
+    src: "/embed/ukrajinsti-zaci",
+    id: "paq-ukrajina-ukrajinsti-zaci",
+  },
 ];
 
 const createEmbedCode = (embedConfig, baseUrl) => {

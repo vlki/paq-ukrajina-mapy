@@ -1,0 +1,1238 @@
+[
+    {
+        "id": 19,
+        "ukrajinci_na_10000_zaku": 359.5216064,
+        "ukrajinsti_zaci": 3908,
+        "zaci_celkem": 108700
+    },
+    {
+        "id": 27,
+        "ukrajinci_na_10000_zaku": 68.28527832,
+        "ukrajinsti_zaci": 45,
+        "zaci_celkem": 6590
+    },
+    {
+        "id": 35,
+        "ukrajinci_na_10000_zaku": 65.85136414,
+        "ukrajinsti_zaci": 14,
+        "zaci_celkem": 2126
+    },
+    {
+        "id": 43,
+        "ukrajinci_na_10000_zaku": 73.59705353,
+        "ukrajinsti_zaci": 8,
+        "zaci_celkem": 1087
+    },
+    {
+        "id": 51,
+        "ukrajinci_na_10000_zaku": 81.36322021,
+        "ukrajinsti_zaci": 53,
+        "zaci_celkem": 6514
+    },
+    {
+        "id": 60,
+        "ukrajinci_na_10000_zaku": 78.96626282,
+        "ukrajinsti_zaci": 22,
+        "zaci_celkem": 2786
+    },
+    {
+        "id": 78,
+        "ukrajinci_na_10000_zaku": 131.535675,
+        "ukrajinsti_zaci": 160,
+        "zaci_celkem": 12164
+    },
+    {
+        "id": 86,
+        "ukrajinci_na_10000_zaku": 135.7957611,
+        "ukrajinsti_zaci": 50,
+        "zaci_celkem": 3682
+    },
+    {
+        "id": 94,
+        "ukrajinci_na_10000_zaku": 155.0671539,
+        "ukrajinsti_zaci": 127,
+        "zaci_celkem": 8190
+    },
+    {
+        "id": 108,
+        "ukrajinci_na_10000_zaku": 106.5619736,
+        "ukrajinsti_zaci": 19,
+        "zaci_celkem": 1783
+    },
+    {
+        "id": 116,
+        "ukrajinci_na_10000_zaku": 146.6698761,
+        "ukrajinsti_zaci": 61,
+        "zaci_celkem": 4159
+    },
+    {
+        "id": 124,
+        "ukrajinci_na_10000_zaku": 51.02040863,
+        "ukrajinsti_zaci": 12,
+        "zaci_celkem": 2352
+    },
+    {
+        "id": 132,
+        "ukrajinci_na_10000_zaku": 138.8888855,
+        "ukrajinsti_zaci": 44,
+        "zaci_celkem": 3168
+    },
+    {
+        "id": 141,
+        "ukrajinci_na_10000_zaku": 133.5559235,
+        "ukrajinsti_zaci": 56,
+        "zaci_celkem": 4193
+    },
+    {
+        "id": 159,
+        "ukrajinci_na_10000_zaku": 112.1076202,
+        "ukrajinsti_zaci": 35,
+        "zaci_celkem": 3122
+    },
+    {
+        "id": 167,
+        "ukrajinci_na_10000_zaku": 164.9175415,
+        "ukrajinsti_zaci": 176,
+        "zaci_celkem": 10672
+    },
+    {
+        "id": 175,
+        "ukrajinci_na_10000_zaku": 56.60377502,
+        "ukrajinsti_zaci": 9,
+        "zaci_celkem": 1590
+    },
+    {
+        "id": 183,
+        "ukrajinci_na_10000_zaku": 126.9751663,
+        "ukrajinsti_zaci": 45,
+        "zaci_celkem": 3544
+    },
+    {
+        "id": 191,
+        "ukrajinci_na_10000_zaku": 53.13496399,
+        "ukrajinsti_zaci": 20,
+        "zaci_celkem": 3764
+    },
+    {
+        "id": 205,
+        "ukrajinci_na_10000_zaku": 48.45967484,
+        "ukrajinsti_zaci": 14,
+        "zaci_celkem": 2889
+    },
+    {
+        "id": 213,
+        "ukrajinci_na_10000_zaku": 219.1733551,
+        "ukrajinsti_zaci": 254,
+        "zaci_celkem": 11589
+    },
+    {
+        "id": 221,
+        "ukrajinci_na_10000_zaku": 99.69230652,
+        "ukrajinsti_zaci": 81,
+        "zaci_celkem": 8125
+    },
+    {
+        "id": 230,
+        "ukrajinci_na_10000_zaku": 107.8346558,
+        "ukrajinsti_zaci": 162,
+        "zaci_celkem": 15023
+    },
+    {
+        "id": 248,
+        "ukrajinci_na_10000_zaku": 67.71054077,
+        "ukrajinsti_zaci": 16,
+        "zaci_celkem": 2363
+    },
+    {
+        "id": 256,
+        "ukrajinci_na_10000_zaku": 54.46099472,
+        "ukrajinsti_zaci": 34,
+        "zaci_celkem": 6243
+    },
+    {
+        "id": 264,
+        "ukrajinci_na_10000_zaku": 30.42596436,
+        "ukrajinsti_zaci": 6,
+        "zaci_celkem": 1972
+    },
+    {
+        "id": 272,
+        "ukrajinci_na_10000_zaku": 84.97489166,
+        "ukrajinsti_zaci": 44,
+        "zaci_celkem": 5178
+    },
+    {
+        "id": 281,
+        "ukrajinci_na_10000_zaku": 28.73563194,
+        "ukrajinsti_zaci": 5,
+        "zaci_celkem": 1740
+    },
+    {
+        "id": 299,
+        "ukrajinci_na_10000_zaku": 24.54991722,
+        "ukrajinsti_zaci": 3,
+        "zaci_celkem": 1222
+    },
+    {
+        "id": 302,
+        "ukrajinci_na_10000_zaku": 90.57971191,
+        "ukrajinsti_zaci": 135,
+        "zaci_celkem": 14904
+    },
+    {
+        "id": 311,
+        "ukrajinci_na_10000_zaku": 251.9379883,
+        "ukrajinsti_zaci": 52,
+        "zaci_celkem": 2064
+    },
+    {
+        "id": 329,
+        "ukrajinci_na_10000_zaku": 38.46154022,
+        "ukrajinsti_zaci": 15,
+        "zaci_celkem": 3900
+    },
+    {
+        "id": 337,
+        "ukrajinci_na_10000_zaku": 18.97533226,
+        "ukrajinsti_zaci": 3,
+        "zaci_celkem": 1581
+    },
+    {
+        "id": 345,
+        "ukrajinci_na_10000_zaku": 44.51038742,
+        "ukrajinsti_zaci": 18,
+        "zaci_celkem": 4044
+    },
+    {
+        "id": 353,
+        "ukrajinci_na_10000_zaku": 13.80579853,
+        "ukrajinsti_zaci": 3,
+        "zaci_celkem": 2173
+    },
+    {
+        "id": 361,
+        "ukrajinci_na_10000_zaku": 70.37747955,
+        "ukrajinsti_zaci": 11,
+        "zaci_celkem": 1563
+    },
+    {
+        "id": 370,
+        "ukrajinci_na_10000_zaku": 74.40476227,
+        "ukrajinsti_zaci": 5,
+        "zaci_celkem": 672
+    },
+    {
+        "id": 388,
+        "ukrajinci_na_10000_zaku": 111.0014801,
+        "ukrajinsti_zaci": 45,
+        "zaci_celkem": 4054
+    },
+    {
+        "id": 396,
+        "ukrajinci_na_10000_zaku": 74.52574158,
+        "ukrajinsti_zaci": 11,
+        "zaci_celkem": 1476
+    },
+    {
+        "id": 400,
+        "ukrajinci_na_10000_zaku": 89.37850952,
+        "ukrajinsti_zaci": 43,
+        "zaci_celkem": 4811
+    },
+    {
+        "id": 418,
+        "ukrajinci_na_10000_zaku": 53.0222702,
+        "ukrajinsti_zaci": 15,
+        "zaci_celkem": 2829
+    },
+    {
+        "id": 426,
+        "ukrajinci_na_10000_zaku": 42.83965683,
+        "ukrajinsti_zaci": 7,
+        "zaci_celkem": 1634
+    },
+    {
+        "id": 434,
+        "ukrajinci_na_10000_zaku": 42.73504257,
+        "ukrajinsti_zaci": 5,
+        "zaci_celkem": 1170
+    },
+    {
+        "id": 442,
+        "ukrajinci_na_10000_zaku": 28.51711082,
+        "ukrajinsti_zaci": 12,
+        "zaci_celkem": 4208
+    },
+    {
+        "id": 451,
+        "ukrajinci_na_10000_zaku": 223.3009644,
+        "ukrajinsti_zaci": 23,
+        "zaci_celkem": 1030
+    },
+    {
+        "id": 469,
+        "ukrajinci_na_10000_zaku": 43.52556992,
+        "ukrajinsti_zaci": 8,
+        "zaci_celkem": 1838
+    },
+    {
+        "id": 477,
+        "ukrajinci_na_10000_zaku": 90.49162292,
+        "ukrajinsti_zaci": 67,
+        "zaci_celkem": 7404
+    },
+    {
+        "id": 485,
+        "ukrajinci_na_10000_zaku": 80.53691101,
+        "ukrajinsti_zaci": 30,
+        "zaci_celkem": 3725
+    },
+    {
+        "id": 493,
+        "ukrajinci_na_10000_zaku": 76.49513245,
+        "ukrajinsti_zaci": 11,
+        "zaci_celkem": 1438
+    },
+    {
+        "id": 507,
+        "ukrajinci_na_10000_zaku": 37.83102036,
+        "ukrajinsti_zaci": 6,
+        "zaci_celkem": 1586
+    },
+    {
+        "id": 515,
+        "ukrajinci_na_10000_zaku": 101.2717819,
+        "ukrajinsti_zaci": 43,
+        "zaci_celkem": 4246
+    },
+    {
+        "id": 523,
+        "ukrajinci_na_10000_zaku": 94.71585083,
+        "ukrajinsti_zaci": 19,
+        "zaci_celkem": 2006
+    },
+    {
+        "id": 531,
+        "ukrajinci_na_10000_zaku": 190.3961945,
+        "ukrajinsti_zaci": 136,
+        "zaci_celkem": 7143
+    },
+    {
+        "id": 540,
+        "ukrajinci_na_10000_zaku": 38.61003876,
+        "ukrajinsti_zaci": 8,
+        "zaci_celkem": 2072
+    },
+    {
+        "id": 558,
+        "ukrajinci_na_10000_zaku": 8.89679718,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1124
+    },
+    {
+        "id": 566,
+        "ukrajinci_na_10000_zaku": 73.60900879,
+        "ukrajinsti_zaci": 34,
+        "zaci_celkem": 4619
+    },
+    {
+        "id": 574,
+        "ukrajinci_na_10000_zaku": 15.56824112,
+        "ukrajinsti_zaci": 3,
+        "zaci_celkem": 1927
+    },
+    {
+        "id": 582,
+        "ukrajinci_na_10000_zaku": 259.2868042,
+        "ukrajinsti_zaci": 453,
+        "zaci_celkem": 17471
+    },
+    {
+        "id": 591,
+        "ukrajinci_na_10000_zaku": 39.10068512,
+        "ukrajinsti_zaci": 4,
+        "zaci_celkem": 1023
+    },
+    {
+        "id": 604,
+        "ukrajinci_na_10000_zaku": 0.0,
+        "ukrajinsti_zaci": 0,
+        "zaci_celkem": 966
+    },
+    {
+        "id": 612,
+        "ukrajinci_na_10000_zaku": 59.88024139,
+        "ukrajinsti_zaci": 13,
+        "zaci_celkem": 2171
+    },
+    {
+        "id": 621,
+        "ukrajinci_na_10000_zaku": 83.37420654,
+        "ukrajinsti_zaci": 17,
+        "zaci_celkem": 2039
+    },
+    {
+        "id": 639,
+        "ukrajinci_na_10000_zaku": 42.46284485,
+        "ukrajinsti_zaci": 8,
+        "zaci_celkem": 1884
+    },
+    {
+        "id": 647,
+        "ukrajinci_na_10000_zaku": 45.27813721,
+        "ukrajinsti_zaci": 21,
+        "zaci_celkem": 4638
+    },
+    {
+        "id": 655,
+        "ukrajinci_na_10000_zaku": 96.57170105,
+        "ukrajinsti_zaci": 40,
+        "zaci_celkem": 4142
+    },
+    {
+        "id": 663,
+        "ukrajinci_na_10000_zaku": 8.96860981,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1115
+    },
+    {
+        "id": 671,
+        "ukrajinci_na_10000_zaku": 18.06412697,
+        "ukrajinsti_zaci": 12,
+        "zaci_celkem": 6643
+    },
+    {
+        "id": 680,
+        "ukrajinci_na_10000_zaku": 39.55174637,
+        "ukrajinsti_zaci": 6,
+        "zaci_celkem": 1517
+    },
+    {
+        "id": 698,
+        "ukrajinci_na_10000_zaku": 233.4993744,
+        "ukrajinsti_zaci": 75,
+        "zaci_celkem": 3212
+    },
+    {
+        "id": 701,
+        "ukrajinci_na_10000_zaku": 28.5714283,
+        "ukrajinsti_zaci": 7,
+        "zaci_celkem": 2450
+    },
+    {
+        "id": 710,
+        "ukrajinci_na_10000_zaku": 40.76086807,
+        "ukrajinsti_zaci": 30,
+        "zaci_celkem": 7360
+    },
+    {
+        "id": 728,
+        "ukrajinci_na_10000_zaku": 17.03577423,
+        "ukrajinsti_zaci": 12,
+        "zaci_celkem": 7044
+    },
+    {
+        "id": 736,
+        "ukrajinci_na_10000_zaku": 24.02196312,
+        "ukrajinsti_zaci": 7,
+        "zaci_celkem": 2914
+    },
+    {
+        "id": 744,
+        "ukrajinci_na_10000_zaku": 11.74398136,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 1703
+    },
+    {
+        "id": 752,
+        "ukrajinci_na_10000_zaku": 91.86706543,
+        "ukrajinsti_zaci": 68,
+        "zaci_celkem": 7402
+    },
+    {
+        "id": 761,
+        "ukrajinci_na_10000_zaku": 75.75757599,
+        "ukrajinsti_zaci": 28,
+        "zaci_celkem": 3696
+    },
+    {
+        "id": 779,
+        "ukrajinci_na_10000_zaku": 112.3377914,
+        "ukrajinsti_zaci": 58,
+        "zaci_celkem": 5163
+    },
+    {
+        "id": 787,
+        "ukrajinci_na_10000_zaku": 51.90311432,
+        "ukrajinsti_zaci": 9,
+        "zaci_celkem": 1734
+    },
+    {
+        "id": 795,
+        "ukrajinci_na_10000_zaku": 365.384613,
+        "ukrajinsti_zaci": 38,
+        "zaci_celkem": 1040
+    },
+    {
+        "id": 809,
+        "ukrajinci_na_10000_zaku": 13.76146793,
+        "ukrajinsti_zaci": 3,
+        "zaci_celkem": 2180
+    },
+    {
+        "id": 817,
+        "ukrajinci_na_10000_zaku": 142.1434174,
+        "ukrajinsti_zaci": 202,
+        "zaci_celkem": 14211
+    },
+    {
+        "id": 825,
+        "ukrajinci_na_10000_zaku": 44.36103058,
+        "ukrajinsti_zaci": 26,
+        "zaci_celkem": 5861
+    },
+    {
+        "id": 833,
+        "ukrajinci_na_10000_zaku": 68.0,
+        "ukrajinsti_zaci": 17,
+        "zaci_celkem": 2500
+    },
+    {
+        "id": 841,
+        "ukrajinci_na_10000_zaku": 74.74307251,
+        "ukrajinsti_zaci": 24,
+        "zaci_celkem": 3211
+    },
+    {
+        "id": 850,
+        "ukrajinci_na_10000_zaku": 66.32653046,
+        "ukrajinsti_zaci": 26,
+        "zaci_celkem": 3920
+    },
+    {
+        "id": 868,
+        "ukrajinci_na_10000_zaku": 6.657789707,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1502
+    },
+    {
+        "id": 876,
+        "ukrajinci_na_10000_zaku": 87.75276947,
+        "ukrajinsti_zaci": 23,
+        "zaci_celkem": 2621
+    },
+    {
+        "id": 884,
+        "ukrajinci_na_10000_zaku": 15.42733765,
+        "ukrajinsti_zaci": 5,
+        "zaci_celkem": 3241
+    },
+    {
+        "id": 892,
+        "ukrajinci_na_10000_zaku": 51.53857803,
+        "ukrajinsti_zaci": 34,
+        "zaci_celkem": 6597
+    },
+    {
+        "id": 906,
+        "ukrajinci_na_10000_zaku": 5.834305763,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1714
+    },
+    {
+        "id": 914,
+        "ukrajinci_na_10000_zaku": 107.9759598,
+        "ukrajinsti_zaci": 106,
+        "zaci_celkem": 9817
+    },
+    {
+        "id": 922,
+        "ukrajinci_na_10000_zaku": 59.80007172,
+        "ukrajinsti_zaci": 67,
+        "zaci_celkem": 11204
+    },
+    {
+        "id": 931,
+        "ukrajinci_na_10000_zaku": 10.52631569,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 1900
+    },
+    {
+        "id": 949,
+        "ukrajinci_na_10000_zaku": 93.87754822,
+        "ukrajinsti_zaci": 46,
+        "zaci_celkem": 4900
+    },
+    {
+        "id": 957,
+        "ukrajinci_na_10000_zaku": 43.64089966,
+        "ukrajinsti_zaci": 7,
+        "zaci_celkem": 1604
+    },
+    {
+        "id": 965,
+        "ukrajinci_na_10000_zaku": 98.45922852,
+        "ukrajinsti_zaci": 131,
+        "zaci_celkem": 13305
+    },
+    {
+        "id": 973,
+        "ukrajinci_na_10000_zaku": 67.90123749,
+        "ukrajinsti_zaci": 11,
+        "zaci_celkem": 1620
+    },
+    {
+        "id": 981,
+        "ukrajinci_na_10000_zaku": 59.99739075,
+        "ukrajinsti_zaci": 46,
+        "zaci_celkem": 7667
+    },
+    {
+        "id": 990,
+        "ukrajinci_na_10000_zaku": 5.837711811,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1713
+    },
+    {
+        "id": 1007,
+        "ukrajinci_na_10000_zaku": 68.96551514,
+        "ukrajinsti_zaci": 12,
+        "zaci_celkem": 1740
+    },
+    {
+        "id": 1015,
+        "ukrajinci_na_10000_zaku": 81.96721649,
+        "ukrajinsti_zaci": 35,
+        "zaci_celkem": 4270
+    },
+    {
+        "id": 1023,
+        "ukrajinci_na_10000_zaku": 35.84229279,
+        "ukrajinsti_zaci": 4,
+        "zaci_celkem": 1116
+    },
+    {
+        "id": 1031,
+        "ukrajinci_na_10000_zaku": 7.320644379,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1366
+    },
+    {
+        "id": 1040,
+        "ukrajinci_na_10000_zaku": 76.24633789,
+        "ukrajinsti_zaci": 13,
+        "zaci_celkem": 1705
+    },
+    {
+        "id": 1058,
+        "ukrajinci_na_10000_zaku": 23.3281498,
+        "ukrajinsti_zaci": 3,
+        "zaci_celkem": 1286
+    },
+    {
+        "id": 1066,
+        "ukrajinci_na_10000_zaku": 87.44186401,
+        "ukrajinsti_zaci": 47,
+        "zaci_celkem": 5375
+    },
+    {
+        "id": 1074,
+        "ukrajinci_na_10000_zaku": 64.13993835,
+        "ukrajinsti_zaci": 11,
+        "zaci_celkem": 1715
+    },
+    {
+        "id": 1082,
+        "ukrajinci_na_10000_zaku": 119.5814667,
+        "ukrajinsti_zaci": 144,
+        "zaci_celkem": 12042
+    },
+    {
+        "id": 1091,
+        "ukrajinci_na_10000_zaku": 59.82053757,
+        "ukrajinsti_zaci": 12,
+        "zaci_celkem": 2006
+    },
+    {
+        "id": 1104,
+        "ukrajinci_na_10000_zaku": 59.07626343,
+        "ukrajinsti_zaci": 11,
+        "zaci_celkem": 1862
+    },
+    {
+        "id": 1112,
+        "ukrajinci_na_10000_zaku": 75.121521,
+        "ukrajinsti_zaci": 17,
+        "zaci_celkem": 2263
+    },
+    {
+        "id": 1121,
+        "ukrajinci_na_10000_zaku": 106.3506546,
+        "ukrajinsti_zaci": 35,
+        "zaci_celkem": 3291
+    },
+    {
+        "id": 1139,
+        "ukrajinci_na_10000_zaku": 10.04016018,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 1992
+    },
+    {
+        "id": 1147,
+        "ukrajinci_na_10000_zaku": 46.53130341,
+        "ukrajinsti_zaci": 11,
+        "zaci_celkem": 2364
+    },
+    {
+        "id": 1155,
+        "ukrajinci_na_10000_zaku": 108.5883484,
+        "ukrajinsti_zaci": 33,
+        "zaci_celkem": 3039
+    },
+    {
+        "id": 1163,
+        "ukrajinci_na_10000_zaku": 26.65651131,
+        "ukrajinsti_zaci": 7,
+        "zaci_celkem": 2626
+    },
+    {
+        "id": 1171,
+        "ukrajinci_na_10000_zaku": 4.770992279,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 2096
+    },
+    {
+        "id": 1180,
+        "ukrajinci_na_10000_zaku": 22.47191048,
+        "ukrajinsti_zaci": 4,
+        "zaci_celkem": 1780
+    },
+    {
+        "id": 1198,
+        "ukrajinci_na_10000_zaku": 31.40265083,
+        "ukrajinsti_zaci": 9,
+        "zaci_celkem": 2866
+    },
+    {
+        "id": 1201,
+        "ukrajinci_na_10000_zaku": 56.99254608,
+        "ukrajinsti_zaci": 13,
+        "zaci_celkem": 2281
+    },
+    {
+        "id": 1210,
+        "ukrajinci_na_10000_zaku": 44.20084763,
+        "ukrajinsti_zaci": 25,
+        "zaci_celkem": 5656
+    },
+    {
+        "id": 1228,
+        "ukrajinci_na_10000_zaku": 31.29890442,
+        "ukrajinsti_zaci": 8,
+        "zaci_celkem": 2556
+    },
+    {
+        "id": 1236,
+        "ukrajinci_na_10000_zaku": 52.15123749,
+        "ukrajinsti_zaci": 4,
+        "zaci_celkem": 767
+    },
+    {
+        "id": 1244,
+        "ukrajinci_na_10000_zaku": 43.21520996,
+        "ukrajinsti_zaci": 10,
+        "zaci_celkem": 2314
+    },
+    {
+        "id": 1252,
+        "ukrajinci_na_10000_zaku": 94.11764526,
+        "ukrajinsti_zaci": 28,
+        "zaci_celkem": 2975
+    },
+    {
+        "id": 1261,
+        "ukrajinci_na_10000_zaku": 38.02281189,
+        "ukrajinsti_zaci": 10,
+        "zaci_celkem": 2630
+    },
+    {
+        "id": 1279,
+        "ukrajinci_na_10000_zaku": 6.761325359,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1479
+    },
+    {
+        "id": 1287,
+        "ukrajinci_na_10000_zaku": 85.17887878,
+        "ukrajinsti_zaci": 20,
+        "zaci_celkem": 2348
+    },
+    {
+        "id": 1295,
+        "ukrajinci_na_10000_zaku": 48.24391937,
+        "ukrajinsti_zaci": 25,
+        "zaci_celkem": 5182
+    },
+    {
+        "id": 1309,
+        "ukrajinci_na_10000_zaku": 41.70804214,
+        "ukrajinsti_zaci": 21,
+        "zaci_celkem": 5035
+    },
+    {
+        "id": 1317,
+        "ukrajinci_na_10000_zaku": 133.3413086,
+        "ukrajinsti_zaci": 446,
+        "zaci_celkem": 33448
+    },
+    {
+        "id": 1325,
+        "ukrajinci_na_10000_zaku": 61.10868454,
+        "ukrajinsti_zaci": 14,
+        "zaci_celkem": 2291
+    },
+    {
+        "id": 1333,
+        "ukrajinci_na_10000_zaku": 61.64058685,
+        "ukrajinsti_zaci": 13,
+        "zaci_celkem": 2109
+    },
+    {
+        "id": 1341,
+        "ukrajinci_na_10000_zaku": 54.15162277,
+        "ukrajinsti_zaci": 12,
+        "zaci_celkem": 2216
+    },
+    {
+        "id": 1350,
+        "ukrajinci_na_10000_zaku": 18.41055489,
+        "ukrajinsti_zaci": 6,
+        "zaci_celkem": 3259
+    },
+    {
+        "id": 1368,
+        "ukrajinci_na_10000_zaku": 67.23226929,
+        "ukrajinsti_zaci": 42,
+        "zaci_celkem": 6247
+    },
+    {
+        "id": 1376,
+        "ukrajinci_na_10000_zaku": 88.55362701,
+        "ukrajinsti_zaci": 27,
+        "zaci_celkem": 3049
+    },
+    {
+        "id": 1384,
+        "ukrajinci_na_10000_zaku": 11.98801231,
+        "ukrajinsti_zaci": 6,
+        "zaci_celkem": 5005
+    },
+    {
+        "id": 1392,
+        "ukrajinci_na_10000_zaku": 49.04966354,
+        "ukrajinsti_zaci": 16,
+        "zaci_celkem": 3262
+    },
+    {
+        "id": 1406,
+        "ukrajinci_na_10000_zaku": 29.41176414,
+        "ukrajinsti_zaci": 5,
+        "zaci_celkem": 1700
+    },
+    {
+        "id": 1414,
+        "ukrajinci_na_10000_zaku": 14.99250412,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 1334
+    },
+    {
+        "id": 1422,
+        "ukrajinci_na_10000_zaku": 13.62397861,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 1468
+    },
+    {
+        "id": 1431,
+        "ukrajinci_na_10000_zaku": 20.6540451,
+        "ukrajinsti_zaci": 6,
+        "zaci_celkem": 2905
+    },
+    {
+        "id": 1449,
+        "ukrajinci_na_10000_zaku": 0.0,
+        "ukrajinsti_zaci": 0,
+        "zaci_celkem": 1991
+    },
+    {
+        "id": 1457,
+        "ukrajinci_na_10000_zaku": 12.97016907,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 1542
+    },
+    {
+        "id": 1465,
+        "ukrajinci_na_10000_zaku": 23.6806488,
+        "ukrajinsti_zaci": 21,
+        "zaci_celkem": 8868
+    },
+    {
+        "id": 1473,
+        "ukrajinci_na_10000_zaku": 4.107619762,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 4869
+    },
+    {
+        "id": 1481,
+        "ukrajinci_na_10000_zaku": 10.80146885,
+        "ukrajinsti_zaci": 5,
+        "zaci_celkem": 4629
+    },
+    {
+        "id": 1490,
+        "ukrajinci_na_10000_zaku": 12.93242836,
+        "ukrajinsti_zaci": 4,
+        "zaci_celkem": 3093
+    },
+    {
+        "id": 1503,
+        "ukrajinci_na_10000_zaku": 78.39447784,
+        "ukrajinsti_zaci": 75,
+        "zaci_celkem": 9567
+    },
+    {
+        "id": 1511,
+        "ukrajinci_na_10000_zaku": 9.398496628,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1064
+    },
+    {
+        "id": 1520,
+        "ukrajinci_na_10000_zaku": 0.0,
+        "ukrajinsti_zaci": 0,
+        "zaci_celkem": 1263
+    },
+    {
+        "id": 1538,
+        "ukrajinci_na_10000_zaku": 16.00853729,
+        "ukrajinsti_zaci": 3,
+        "zaci_celkem": 1874
+    },
+    {
+        "id": 1546,
+        "ukrajinci_na_10000_zaku": 15.63042736,
+        "ukrajinsti_zaci": 9,
+        "zaci_celkem": 5758
+    },
+    {
+        "id": 1554,
+        "ukrajinci_na_10000_zaku": 12.97016907,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 771
+    },
+    {
+        "id": 1562,
+        "ukrajinci_na_10000_zaku": 31.31160927,
+        "ukrajinsti_zaci": 27,
+        "zaci_celkem": 8623
+    },
+    {
+        "id": 1571,
+        "ukrajinci_na_10000_zaku": 15.92356682,
+        "ukrajinsti_zaci": 3,
+        "zaci_celkem": 1884
+    },
+    {
+        "id": 1589,
+        "ukrajinci_na_10000_zaku": 27.42230415,
+        "ukrajinsti_zaci": 3,
+        "zaci_celkem": 1094
+    },
+    {
+        "id": 1597,
+        "ukrajinci_na_10000_zaku": 28.92373276,
+        "ukrajinsti_zaci": 19,
+        "zaci_celkem": 6569
+    },
+    {
+        "id": 1601,
+        "ukrajinci_na_10000_zaku": 12.48751259,
+        "ukrajinsti_zaci": 10,
+        "zaci_celkem": 8008
+    },
+    {
+        "id": 1619,
+        "ukrajinci_na_10000_zaku": 20.2839756,
+        "ukrajinsti_zaci": 9,
+        "zaci_celkem": 4437
+    },
+    {
+        "id": 1627,
+        "ukrajinci_na_10000_zaku": 37.39715958,
+        "ukrajinsti_zaci": 5,
+        "zaci_celkem": 1337
+    },
+    {
+        "id": 1635,
+        "ukrajinci_na_10000_zaku": 28.34008026,
+        "ukrajinsti_zaci": 7,
+        "zaci_celkem": 2470
+    },
+    {
+        "id": 1643,
+        "ukrajinci_na_10000_zaku": 52.45108032,
+        "ukrajinsti_zaci": 26,
+        "zaci_celkem": 4957
+    },
+    {
+        "id": 1651,
+        "ukrajinci_na_10000_zaku": 10.72386074,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 1865
+    },
+    {
+        "id": 1660,
+        "ukrajinci_na_10000_zaku": 18.7309761,
+        "ukrajinsti_zaci": 16,
+        "zaci_celkem": 8542
+    },
+    {
+        "id": 1678,
+        "ukrajinci_na_10000_zaku": 26.5604248,
+        "ukrajinsti_zaci": 4,
+        "zaci_celkem": 1506
+    },
+    {
+        "id": 1686,
+        "ukrajinci_na_10000_zaku": 11.06194687,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 1808
+    },
+    {
+        "id": 1694,
+        "ukrajinci_na_10000_zaku": 19.42825508,
+        "ukrajinsti_zaci": 7,
+        "zaci_celkem": 3603
+    },
+    {
+        "id": 1708,
+        "ukrajinci_na_10000_zaku": 57.03915024,
+        "ukrajinsti_zaci": 22,
+        "zaci_celkem": 3857
+    },
+    {
+        "id": 1716,
+        "ukrajinci_na_10000_zaku": 25.4291172,
+        "ukrajinsti_zaci": 8,
+        "zaci_celkem": 3146
+    },
+    {
+        "id": 1724,
+        "ukrajinci_na_10000_zaku": 12.01562023,
+        "ukrajinsti_zaci": 4,
+        "zaci_celkem": 3329
+    },
+    {
+        "id": 1732,
+        "ukrajinci_na_10000_zaku": 17.49781227,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 1143
+    },
+    {
+        "id": 1741,
+        "ukrajinci_na_10000_zaku": 13.09427834,
+        "ukrajinsti_zaci": 13,
+        "zaci_celkem": 9928
+    },
+    {
+        "id": 1759,
+        "ukrajinci_na_10000_zaku": 0.0,
+        "ukrajinsti_zaci": 0,
+        "zaci_celkem": 2269
+    },
+    {
+        "id": 1767,
+        "ukrajinci_na_10000_zaku": 0.0,
+        "ukrajinsti_zaci": 0,
+        "zaci_celkem": 2136
+    },
+    {
+        "id": 1775,
+        "ukrajinci_na_10000_zaku": 13.45119095,
+        "ukrajinsti_zaci": 7,
+        "zaci_celkem": 5204
+    },
+    {
+        "id": 1783,
+        "ukrajinci_na_10000_zaku": 3.66568923,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 2728
+    },
+    {
+        "id": 1791,
+        "ukrajinci_na_10000_zaku": 8.340283394,
+        "ukrajinsti_zaci": 6,
+        "zaci_celkem": 7194
+    },
+    {
+        "id": 1805,
+        "ukrajinci_na_10000_zaku": 9.920635223,
+        "ukrajinsti_zaci": 5,
+        "zaci_celkem": 5040
+    },
+    {
+        "id": 1813,
+        "ukrajinci_na_10000_zaku": 6.404098511,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 3123
+    },
+    {
+        "id": 1821,
+        "ukrajinci_na_10000_zaku": 4.304778099,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 2323
+    },
+    {
+        "id": 1830,
+        "ukrajinci_na_10000_zaku": 4.659832478,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 2146
+    },
+    {
+        "id": 1848,
+        "ukrajinci_na_10000_zaku": 0.0,
+        "ukrajinsti_zaci": 0,
+        "zaci_celkem": 1731
+    },
+    {
+        "id": 1856,
+        "ukrajinci_na_10000_zaku": 27.15915298,
+        "ukrajinsti_zaci": 10,
+        "zaci_celkem": 3682
+    },
+    {
+        "id": 1864,
+        "ukrajinci_na_10000_zaku": 17.26370239,
+        "ukrajinsti_zaci": 8,
+        "zaci_celkem": 4634
+    },
+    {
+        "id": 1872,
+        "ukrajinci_na_10000_zaku": 46.11330795,
+        "ukrajinsti_zaci": 7,
+        "zaci_celkem": 1518
+    },
+    {
+        "id": 1881,
+        "ukrajinci_na_10000_zaku": 19.1662674,
+        "ukrajinsti_zaci": 4,
+        "zaci_celkem": 2087
+    },
+    {
+        "id": 1899,
+        "ukrajinci_na_10000_zaku": 27.7867527,
+        "ukrajinsti_zaci": 43,
+        "zaci_celkem": 15475
+    },
+    {
+        "id": 1902,
+        "ukrajinci_na_10000_zaku": 5.06072855,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1976
+    },
+    {
+        "id": 1911,
+        "ukrajinci_na_10000_zaku": 15.12096786,
+        "ukrajinsti_zaci": 3,
+        "zaci_celkem": 1984
+    },
+    {
+        "id": 1929,
+        "ukrajinci_na_10000_zaku": 2.797202826,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 3575
+    },
+    {
+        "id": 1937,
+        "ukrajinci_na_10000_zaku": 9.818360329,
+        "ukrajinsti_zaci": 2,
+        "zaci_celkem": 2037
+    },
+    {
+        "id": 1945,
+        "ukrajinci_na_10000_zaku": 10.61458397,
+        "ukrajinsti_zaci": 10,
+        "zaci_celkem": 9421
+    },
+    {
+        "id": 1953,
+        "ukrajinci_na_10000_zaku": 7.85545969,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1273
+    },
+    {
+        "id": 1961,
+        "ukrajinci_na_10000_zaku": 13.61985493,
+        "ukrajinsti_zaci": 36,
+        "zaci_celkem": 26432
+    },
+    {
+        "id": 1970,
+        "ukrajinci_na_10000_zaku": 23.88263321,
+        "ukrajinsti_zaci": 7,
+        "zaci_celkem": 2931
+    },
+    {
+        "id": 1988,
+        "ukrajinci_na_10000_zaku": 7.668711662,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 1304
+    },
+    {
+        "id": 1996,
+        "ukrajinci_na_10000_zaku": 20.18006897,
+        "ukrajinsti_zaci": 13,
+        "zaci_celkem": 6442
+    },
+    {
+        "id": 2003,
+        "ukrajinci_na_10000_zaku": 24.60024643,
+        "ukrajinsti_zaci": 4,
+        "zaci_celkem": 1626
+    },
+    {
+        "id": 2011,
+        "ukrajinci_na_10000_zaku": 3.538570404,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 2826
+    },
+    {
+        "id": 2020,
+        "ukrajinci_na_10000_zaku": 14.427701,
+        "ukrajinsti_zaci": 9,
+        "zaci_celkem": 6238
+    },
+    {
+        "id": 2038,
+        "ukrajinci_na_10000_zaku": 34.40725708,
+        "ukrajinsti_zaci": 11,
+        "zaci_celkem": 3197
+    },
+    {
+        "id": 2046,
+        "ukrajinci_na_10000_zaku": 15.70269585,
+        "ukrajinsti_zaci": 6,
+        "zaci_celkem": 3821
+    },
+    {
+        "id": 2054,
+        "ukrajinci_na_10000_zaku": 31.32068825,
+        "ukrajinsti_zaci": 18,
+        "zaci_celkem": 5747
+    },
+    {
+        "id": 2062,
+        "ukrajinci_na_10000_zaku": 3.174603224,
+        "ukrajinsti_zaci": 1,
+        "zaci_celkem": 3150
+    }
+]
