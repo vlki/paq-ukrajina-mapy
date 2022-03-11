@@ -105,6 +105,10 @@ const embedConfigs = [
     src: "/embed/psychologove",
     id: "paq-ukrajina-psychologove",
   },
+  {
+    src: "/embed/detske-skupiny",
+    id: "paq-ukrajina-detske-skupiny",
+  },
 ];
 
 const createEmbedCode = (embedConfig, baseUrl) => {
