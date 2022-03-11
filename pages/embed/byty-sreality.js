@@ -12,20 +12,22 @@ import {
 } from "../../lib/data/hooks";
 import styles from "../../styles/Embed.module.scss";
 
-export default function EmbedAccommodation({ baseUrl }) {
+export default function EmbedFlatsSreality({ baseUrl }) {
   const okresyData = useOkresyData(baseUrl);
   const krajeData = useKrajeData(baseUrl);
   const accommodationData = useAccommodationData(baseUrl);
-  const { containerRef } = usePostMessageWithHeight("paq-ukrajina-bydleni");
+  const { containerRef } = usePostMessageWithHeight(
+    "paq-ukrajina-byty-sreality"
+  );
 
   const [selectedOkresId, setSelectedOkresId] = React.useState(null);
 
   const categories = [
-    { label: "500 a méně", color: "#FEF0D9" },
-    { label: "500–1000", color: "#C4D3C9" },
-    { label: "1000–1500", color: "#79ABB0" },
-    { label: "1500–2000", color: "#288893" },
-    { label: "2000 a více", color: "#005B6E" },
+    { label: "25 a méně", color: "#FEF0D9" },
+    { label: "25–50", color: "#C4D3C9" },
+    { label: "50–100", color: "#79ABB0" },
+    { label: "100–200", color: "#288893" },
+    { label: "200 a více", color: "#005B6E" },
   ];
 
   const fillByOkresId = React.useMemo(() => {
@@ -35,13 +37,13 @@ export default function EmbedAccommodation({ baseUrl }) {
 
     const color = d3
       .scaleThreshold()
-      .domain([500, 1000, 1500, 2000, 100000])
+      .domain([25, 50, 100, 200, 100000])
       .range(["#FEF0D9", "#C4D3C9", "#79ABB0", "#288893", "#005B6E"]);
 
     return accommodationData.reduce((carry, okresAccommodation) => {
       return {
         ...carry,
-        [okresAccommodation.id]: color(okresAccommodation.total_beds),
+        [okresAccommodation.id]: color(okresAccommodation.flats_sreality),
       };
     }, {});
   }, [accommodationData]);
@@ -58,11 +60,16 @@ export default function EmbedAccommodation({ baseUrl }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Volná lůžka lůžek v bytech, hotelích, apod. v okresech</title>
+        <title>
+          Byty k pronájmu na Sreality.cz v okresech (začátek března 2022)
+        </title>
       </Head>
 
       <main className={styles.container} ref={containerRef}>
-        <h1>Volná lůžka v bytech, hotelích, apod. v okresech</h1>
+        <h1>
+          Byty k&nbsp;pronájmu na&nbsp;Sreality.cz v&nbsp;okresech (začátek
+          března 2022)
+        </h1>
 
         <div className={styles.legend}>
           {categories.map((category) => (
@@ -96,39 +103,14 @@ export default function EmbedAccommodation({ baseUrl }) {
 
                 <div className="main-value-line">
                   <strong>
-                    {okresAccommodationById[okresId].total_beds.toLocaleString(
-                      "cs-CZ"
-                    )}{" "}
-                    volných lůžek celkem
+                    {okresAccommodationById[
+                      okresId
+                    ].flats_sreality.toLocaleString("cs-CZ")}{" "}
+                    bytů k pronájmu
                   </strong>{" "}
-                  <span className="muted">
-                    (s&nbsp;předpokladem 4&nbsp;lidí na byt)
-                  </span>
-                </div>
-                <div className="value-line">
-                  {okresAccommodationById[
-                    okresId
-                  ].flats_sreality.toLocaleString("cs-CZ")}{" "}
-                  bytů k pronájmu{" "}
                   <span className="muted">
                     (Sreality.cz, začátek března 2022)
                   </span>
-                </div>
-                <div className="value-line">
-                  {okresAccommodationById[
-                    okresId
-                  ].flats_municipal.toLocaleString("cs-CZ")}{" "}
-                  dostupných obecních bytů{" "}
-                  <span className="muted">
-                    (odhad 4&nbsp;% celkového fondu)
-                  </span>
-                </div>
-                <div className="value-line">
-                  {okresAccommodationById[okresId].hotel_beds.toLocaleString(
-                    "cs-CZ"
-                  )}{" "}
-                  odhadovaných volných lůžek v&nbsp;hotelích apod. zařízeních{" "}
-                  <span className="muted">(realitická varianta - květen)</span>
                 </div>
               </div>
             )}

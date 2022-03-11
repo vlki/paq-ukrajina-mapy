@@ -71,6 +71,18 @@ const embedConfigs = [
     src: "/embed/bydleni",
     id: "paq-ukrajina-bydleni",
   },
+  {
+    src: "/embed/byty-sreality",
+    id: "paq-ukrajina-byty-sreality",
+  },
+  {
+    src: "/embed/byty-obecni",
+    id: "paq-ukrajina-byty-obecni",
+  },
+  {
+    src: "/embed/luzka-hotely",
+    id: "paq-ukrajina-luzka-hotely",
+  },
 ];
 
 const createEmbedCode = (embedConfig, baseUrl) => {
