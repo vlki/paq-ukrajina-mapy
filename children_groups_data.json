@@ -1,0 +1,387 @@
+[
+    {
+        "id": 3100,
+        "kapacita": 3065,
+        "pocet_detskych_skupin": 222
+    },
+    {
+        "id": 3201,
+        "kapacita": 132,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3202,
+        "kapacita": 206,
+        "pocet_detskych_skupin": 16
+    },
+    {
+        "id": 3203,
+        "kapacita": 251,
+        "pocet_detskych_skupin": 20
+    },
+    {
+        "id": 3204,
+        "kapacita": 189,
+        "pocet_detskych_skupin": 16
+    },
+    {
+        "id": 3205,
+        "kapacita": 166,
+        "pocet_detskych_skupin": 13
+    },
+    {
+        "id": 3206,
+        "kapacita": 169,
+        "pocet_detskych_skupin": 14
+    },
+    {
+        "id": 3207,
+        "kapacita": 159,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3208,
+        "kapacita": 107,
+        "pocet_detskych_skupin": 8
+    },
+    {
+        "id": 3209,
+        "kapacita": 788,
+        "pocet_detskych_skupin": 59
+    },
+    {
+        "id": 3210,
+        "kapacita": 520,
+        "pocet_detskych_skupin": 44
+    },
+    {
+        "id": 3211,
+        "kapacita": 136,
+        "pocet_detskych_skupin": 9
+    },
+    {
+        "id": 3212,
+        "kapacita": 74,
+        "pocet_detskych_skupin": 6
+    },
+    {
+        "id": 3301,
+        "kapacita": 298,
+        "pocet_detskych_skupin": 22
+    },
+    {
+        "id": 3302,
+        "kapacita": 58,
+        "pocet_detskych_skupin": 5
+    },
+    {
+        "id": 3303,
+        "kapacita": 0,
+        "pocet_detskych_skupin": 0
+    },
+    {
+        "id": 3304,
+        "kapacita": 8,
+        "pocet_detskych_skupin": 1
+    },
+    {
+        "id": 3305,
+        "kapacita": 191,
+        "pocet_detskych_skupin": 14
+    },
+    {
+        "id": 3306,
+        "kapacita": 119,
+        "pocet_detskych_skupin": 11
+    },
+    {
+        "id": 3307,
+        "kapacita": 111,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3308,
+        "kapacita": 60,
+        "pocet_detskych_skupin": 5
+    },
+    {
+        "id": 3401,
+        "kapacita": 77,
+        "pocet_detskych_skupin": 6
+    },
+    {
+        "id": 3402,
+        "kapacita": 36,
+        "pocet_detskych_skupin": 3
+    },
+    {
+        "id": 3403,
+        "kapacita": 82,
+        "pocet_detskych_skupin": 6
+    },
+    {
+        "id": 3404,
+        "kapacita": 24,
+        "pocet_detskych_skupin": 2
+    },
+    {
+        "id": 3405,
+        "kapacita": 456,
+        "pocet_detskych_skupin": 35
+    },
+    {
+        "id": 3406,
+        "kapacita": 0,
+        "pocet_detskych_skupin": 0
+    },
+    {
+        "id": 3407,
+        "kapacita": 45,
+        "pocet_detskych_skupin": 4
+    },
+    {
+        "id": 3408,
+        "kapacita": 0,
+        "pocet_detskych_skupin": 0
+    },
+    {
+        "id": 3409,
+        "kapacita": 12,
+        "pocet_detskych_skupin": 1
+    },
+    {
+        "id": 3410,
+        "kapacita": 54,
+        "pocet_detskych_skupin": 5
+    },
+    {
+        "id": 3501,
+        "kapacita": 134,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3502,
+        "kapacita": 106,
+        "pocet_detskych_skupin": 8
+    },
+    {
+        "id": 3503,
+        "kapacita": 174,
+        "pocet_detskych_skupin": 12
+    },
+    {
+        "id": 3504,
+        "kapacita": 85,
+        "pocet_detskych_skupin": 7
+    },
+    {
+        "id": 3505,
+        "kapacita": 310,
+        "pocet_detskych_skupin": 21
+    },
+    {
+        "id": 3506,
+        "kapacita": 119,
+        "pocet_detskych_skupin": 9
+    },
+    {
+        "id": 3507,
+        "kapacita": 62,
+        "pocet_detskych_skupin": 6
+    },
+    {
+        "id": 3508,
+        "kapacita": 112,
+        "pocet_detskych_skupin": 7
+    },
+    {
+        "id": 3509,
+        "kapacita": 104,
+        "pocet_detskych_skupin": 11
+    },
+    {
+        "id": 3510,
+        "kapacita": 351,
+        "pocet_detskych_skupin": 25
+    },
+    {
+        "id": 3601,
+        "kapacita": 90,
+        "pocet_detskych_skupin": 8
+    },
+    {
+        "id": 3602,
+        "kapacita": 401,
+        "pocet_detskych_skupin": 35
+    },
+    {
+        "id": 3603,
+        "kapacita": 138,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3604,
+        "kapacita": 36,
+        "pocet_detskych_skupin": 3
+    },
+    {
+        "id": 3605,
+        "kapacita": 126,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3606,
+        "kapacita": 424,
+        "pocet_detskych_skupin": 31
+    },
+    {
+        "id": 3607,
+        "kapacita": 90,
+        "pocet_detskych_skupin": 7
+    },
+    {
+        "id": 3608,
+        "kapacita": 79,
+        "pocet_detskych_skupin": 5
+    },
+    {
+        "id": 3609,
+        "kapacita": 118,
+        "pocet_detskych_skupin": 8
+    },
+    {
+        "id": 3610,
+        "kapacita": 97,
+        "pocet_detskych_skupin": 8
+    },
+    {
+        "id": 3611,
+        "kapacita": 100,
+        "pocet_detskych_skupin": 9
+    },
+    {
+        "id": 3701,
+        "kapacita": 201,
+        "pocet_detskych_skupin": 16
+    },
+    {
+        "id": 3702,
+        "kapacita": 1702,
+        "pocet_detskych_skupin": 118
+    },
+    {
+        "id": 3703,
+        "kapacita": 336,
+        "pocet_detskych_skupin": 25
+    },
+    {
+        "id": 3704,
+        "kapacita": 150,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3705,
+        "kapacita": 214,
+        "pocet_detskych_skupin": 19
+    },
+    {
+        "id": 3706,
+        "kapacita": 106,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3707,
+        "kapacita": 80,
+        "pocet_detskych_skupin": 8
+    },
+    {
+        "id": 3708,
+        "kapacita": 115,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3709,
+        "kapacita": 119,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3710,
+        "kapacita": 67,
+        "pocet_detskych_skupin": 8
+    },
+    {
+        "id": 3711,
+        "kapacita": 152,
+        "pocet_detskych_skupin": 11
+    },
+    {
+        "id": 3712,
+        "kapacita": 115,
+        "pocet_detskych_skupin": 9
+    },
+    {
+        "id": 3713,
+        "kapacita": 48,
+        "pocet_detskych_skupin": 5
+    },
+    {
+        "id": 3714,
+        "kapacita": 86,
+        "pocet_detskych_skupin": 7
+    },
+    {
+        "id": 3801,
+        "kapacita": 50,
+        "pocet_detskych_skupin": 4
+    },
+    {
+        "id": 3802,
+        "kapacita": 290,
+        "pocet_detskych_skupin": 20
+    },
+    {
+        "id": 3803,
+        "kapacita": 240,
+        "pocet_detskych_skupin": 20
+    },
+    {
+        "id": 3804,
+        "kapacita": 152,
+        "pocet_detskych_skupin": 11
+    },
+    {
+        "id": 3805,
+        "kapacita": 544,
+        "pocet_detskych_skupin": 40
+    },
+    {
+        "id": 3806,
+        "kapacita": 116,
+        "pocet_detskych_skupin": 9
+    },
+    {
+        "id": 3807,
+        "kapacita": 595,
+        "pocet_detskych_skupin": 47
+    },
+    {
+        "id": 3808,
+        "kapacita": 166,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3809,
+        "kapacita": 116,
+        "pocet_detskych_skupin": 10
+    },
+    {
+        "id": 3810,
+        "kapacita": 157,
+        "pocet_detskych_skupin": 13
+    },
+    {
+        "id": 3811,
+        "kapacita": 12,
+        "pocet_detskych_skupin": 1
+    }
+]

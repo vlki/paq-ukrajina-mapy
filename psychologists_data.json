@@ -1,0 +1,826 @@
+[
+    {
+        "id": 19,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 27,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 35,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 43,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 51,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 60,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 78,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 86,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 94,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 108,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 116,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 124,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 132,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 141,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 159,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 167,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 175,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 183,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 191,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 205,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 213,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 221,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 230,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 248,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 256,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 264,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 272,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 281,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 299,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 302,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 311,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 329,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 337,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 345,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 353,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 361,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 370,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 388,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 396,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 400,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 418,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 426,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 434,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 442,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 451,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 469,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 477,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 485,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 493,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 507,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 515,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 523,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 531,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 540,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 558,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 566,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 574,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 582,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 591,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 604,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 612,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 621,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 639,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 647,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 655,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 663,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 671,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 680,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 698,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 701,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 710,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 728,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 736,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 744,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 752,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 761,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 779,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 787,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 795,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 809,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 817,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 825,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 833,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 841,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 850,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 868,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 876,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 884,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 892,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 906,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 914,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 922,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 931,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 949,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 957,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 965,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 973,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 981,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 990,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1007,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1015,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1023,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1031,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1040,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1058,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1066,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1074,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1082,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1091,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1104,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1112,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1121,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1139,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1147,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1155,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1163,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1171,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1180,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1198,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1201,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1210,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1228,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1236,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1244,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1252,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1261,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1279,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1287,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1295,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1309,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1317,
+        "psycholog_uvazek_na_pocet_zaku": "600-1000"
+    },
+    {
+        "id": 1325,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1333,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1341,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1350,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1368,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1376,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1384,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1392,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1406,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1414,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1422,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1431,
+        "psycholog_uvazek_na_pocet_zaku": "600-1000"
+    },
+    {
+        "id": 1449,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1457,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1465,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1473,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1481,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1490,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1503,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1511,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1520,
+        "psycholog_uvazek_na_pocet_zaku": "600-1000"
+    },
+    {
+        "id": 1538,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1546,
+        "psycholog_uvazek_na_pocet_zaku": "600-1000"
+    },
+    {
+        "id": 1554,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1562,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1571,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1589,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1597,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1601,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1619,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1627,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1635,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1643,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1651,
+        "psycholog_uvazek_na_pocet_zaku": "600-1000"
+    },
+    {
+        "id": 1660,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1678,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1686,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1694,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1708,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1716,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1724,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1732,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1741,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1759,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1767,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1775,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1783,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1791,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1805,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1813,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1821,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1830,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1848,
+        "psycholog_uvazek_na_pocet_zaku": "600-1000"
+    },
+    {
+        "id": 1856,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1864,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1872,
+        "psycholog_uvazek_na_pocet_zaku": "600-1000"
+    },
+    {
+        "id": 1881,
+        "psycholog_uvazek_na_pocet_zaku": "4000-40000"
+    },
+    {
+        "id": 1899,
+        "psycholog_uvazek_na_pocet_zaku": "600-1000"
+    },
+    {
+        "id": 1902,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1911,
+        "psycholog_uvazek_na_pocet_zaku": "600-1000"
+    },
+    {
+        "id": 1929,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1937,
+        "psycholog_uvazek_na_pocet_zaku": "žádný psycholog"
+    },
+    {
+        "id": 1945,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 1953,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1961,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1970,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1988,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 1996,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 2003,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 2011,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    },
+    {
+        "id": 2020,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 2038,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 2046,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 2054,
+        "psycholog_uvazek_na_pocet_zaku": "1000-2000"
+    },
+    {
+        "id": 2062,
+        "psycholog_uvazek_na_pocet_zaku": "2000-4000"
+    }
+]
