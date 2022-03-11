@@ -101,8 +101,7 @@ export default function EmbedCounselling({ baseUrl }) {
                 </div>
                 <div className="value-line">
                   {krajCounsellingById[krajId].pedagogu.toLocaleString("cs-CZ")}{" "}
-                  pedagogických pracovníků poraden{" "}
-                  <span className="muted">(počet úvazků)</span>
+                  úvazků pedagogických pracovníků poraden
                 </div>
               </div>
             )}
