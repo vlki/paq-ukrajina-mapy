@@ -109,6 +109,10 @@ const embedConfigs = [
     src: "/embed/detske-skupiny",
     id: "paq-ukrajina-detske-skupiny",
   },
+  {
+    src: "/embed/poradny",
+    id: "paq-ukrajina-poradny",
+  },
 ];
 
 const createEmbedCode = (embedConfig, baseUrl) => {
