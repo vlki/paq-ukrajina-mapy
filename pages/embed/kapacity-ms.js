@@ -16,7 +16,7 @@ export default function EmbedCapacityPreschools({ baseUrl }) {
   const orpData = useOrpData(baseUrl);
   const krajeData = useKrajeData(baseUrl);
   const capacitiesData = useCapacitiesData(baseUrl);
-  const { containerRef } = usePostMessageWithHeight("paq-ukrajina-kapacita-ms");
+  const { containerRef } = usePostMessageWithHeight("paq-ukrajina-kapacity-ms");
 
   const [selectedOrpId, setSelectedOrpId] = React.useState(null);
 

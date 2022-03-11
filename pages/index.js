@@ -27,10 +27,14 @@ export default function Home({ baseUrl }) {
                 __html: createEmbedCode(embedConfig, baseUrl),
               }}
             ></div>
-            <div style={{ flex: "1 0 0px" }}>
+            <div style={{ flex: "1 0 0px", background: "#eee", padding: 20 }}>
+              <h2 style={{ marginTop: 0 }}>
+                Kód k vložení do vlastních stránek
+              </h2>
+
               <pre
                 style={{
-                  backgroundColor: "#eee",
+                  backgroundColor: "#fff",
                   whiteSpace: "break-spaces",
                   wordBreak: "break-word",
                   margin: 0,
@@ -39,6 +43,16 @@ export default function Home({ baseUrl }) {
               >
                 <code>{createEmbedCode(embedConfig, baseUrl).trim()}</code>
               </pre>
+
+              <h2>Ke stažení</h2>
+
+              <a
+                href={baseUrl + embedConfig.id + ".png"}
+                download
+                className={styles.downloadLink}
+              >
+                Stáhnout jako .png
+              </a>
             </div>
           </div>
         ))}
@@ -61,11 +75,11 @@ export async function getStaticProps() {
 const embedConfigs = [
   {
     src: "/embed/kapacity-zs",
-    id: "paq-ukrajina-kapacita-zs",
+    id: "paq-ukrajina-kapacity-zs",
   },
   {
     src: "/embed/kapacity-ms",
-    id: "paq-ukrajina-kapacita-ms",
+    id: "paq-ukrajina-kapacity-ms",
   },
   {
     src: "/embed/bydleni",

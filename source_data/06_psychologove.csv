@@ -1,0 +1,207 @@
+ORP_KOD,ORP_nazev,psycholog_uvazek_na_pocet_zaku
+1000,Praha,1000-2000
+2101,Benešov,2000-4000
+2102,Beroun,2000-4000
+2103,Brandýs n,2000-4000
+2104,Čáslav,2000-4000
+2105,Černošic,2000-4000
+2106,Český Br,žádný psycholog
+2107,Dobříš,žádný psycholog
+2108,Hořovice,4000-40000
+2109,Kladno,1000-2000
+2110,Kolín,2000-4000
+2111,Kralupy na,2000-4000
+2112,Kutná Hor,4000-40000
+2113,Lysá nad,2000-4000
+2114,Mělník,2000-4000
+2115,Mladá Bol,2000-4000
+2116,Mnichovo H,1000-2000
+2117,Neratovice,4000-40000
+2118,Nymburk,2000-4000
+2119,Poděbrady,2000-4000
+2120,Příbram,1000-2000
+2121,Rakovník,žádný psycholog
+2122,Říčany,1000-2000
+2123,Sedlčany,1000-2000
+2124,Slaný,4000-40000
+2125,Vlašim,žádný psycholog
+2126,Votice,4000-40000
+3101,Blatná,žádný psycholog
+3102,České Bu,1000-2000
+3103,Český Kr,4000-40000
+3104,Dačice,4000-40000
+3105,Jindřich,4000-40000
+3106,Kaplice,žádný psycholog
+3107,Milevsko,žádný psycholog
+3108,Písek,2000-4000
+3109,Prachatice,2000-4000
+3110,Soběslav,2000-4000
+3111,Strakonice,4000-40000
+3112,Tábor,2000-4000
+3113,Trhové Sv,žádný psycholog
+3114,Třeboň,2000-4000
+3115,Týn nad V,žádný psycholog
+3116,Vimperk,2000-4000
+3117,Vodňany,4000-40000
+3201,Blovice,žádný psycholog
+3202,Domažlice,4000-40000
+3203,Horažďov,žádný psycholog
+3204,Horšovsk,2000-4000
+3205,Klatovy,4000-40000
+3206,Kralovice,žádný psycholog
+3207,Nepomuk,žádný psycholog
+3208,Nýřany,žádný psycholog
+3209,Plzeň,2000-4000
+3210,Přeštice,žádný psycholog
+3211,Rokycany,4000-40000
+3212,Stod,2000-4000
+3213,Stříbro,2000-4000
+3214,Sušice,2000-4000
+3215,Tachov,4000-40000
+4101,Aš,žádný psycholog
+4102,Cheb,žádný psycholog
+4103,Karlovy Va,4000-40000
+4104,Kraslice,4000-40000
+4105,Mariánsk,žádný psycholog
+4106,Ostrov,2000-4000
+4107,Sokolov,2000-4000
+4201,Bílina,žádný psycholog
+4202,Děčín,1000-2000
+4203,Chomutov,4000-40000
+4204,Kadaň,žádný psycholog
+4205,Litoměři,4000-40000
+4206,Litvínov,4000-40000
+4207,Louny,žádný psycholog
+4208,Lovosice,žádný psycholog
+4209,Most,4000-40000
+4210,Podbořany,4000-40000
+4211,Roudnice n,4000-40000
+4212,Rumburk,žádný psycholog
+4213,Teplice,4000-40000
+4214,Ústí nad,4000-40000
+4215,Varnsdorf,2000-4000
+4216,Žatec,žádný psycholog
+5101,Česká L,4000-40000
+5102,Frýdlant,žádný psycholog
+5103,Jablonec n,2000-4000
+5104,Jilemnice,žádný psycholog
+5105,Liberec,4000-40000
+5106,Nový Bor,žádný psycholog
+5107,Semily,žádný psycholog
+5108,Tanvald,4000-40000
+5109,Turnov,2000-4000
+5110,Železný,žádný psycholog
+5201,Broumov,1000-2000
+5202,Dobruška,4000-40000
+5203,Dvůr Krá,2000-4000
+5204,Hořice,žádný psycholog
+5205,Hradec Kr,1000-2000
+5206,Jaroměř,žádný psycholog
+5207,Jičín,4000-40000
+5208,Kostelec n,1000-2000
+5209,Náchod,2000-4000
+5210,Nová Paka,4000-40000
+5211,Nové Měs,2000-4000
+5212,Nový Byd,žádný psycholog
+5213,Rychnov na,žádný psycholog
+5214,Trutnov,4000-40000
+5215,Vrchlabí,2000-4000
+5301,Česká T,1000-2000
+5302,Hlinsko,žádný psycholog
+5303,Holice,4000-40000
+5304,Chrudim,4000-40000
+5305,Králíky,žádný psycholog
+5306,Lanškroun,2000-4000
+5307,Litomyšl,4000-40000
+5308,Moravská,2000-4000
+5309,Pardubice,1000-2000
+5310,Polička,4000-40000
+5311,Přelouč,2000-4000
+5312,Svitavy,2000-4000
+5313,Ústí nad,4000-40000
+5314,Vysoké M,žádný psycholog
+5315,Žamberk,4000-40000
+6101,Bystřice,2000-4000
+6102,Havlíčk,2000-4000
+6103,Humpolec,žádný psycholog
+6104,Chotěboř,2000-4000
+6105,Jihlava,2000-4000
+6106,Moravské,4000-40000
+6107,Náměšť,žádný psycholog
+6108,Nové Měs,žádný psycholog
+6109,Pacov,žádný psycholog
+6110,Pelhřimov,4000-40000
+6111,Světlá n,4000-40000
+6112,Telč,žádný psycholog
+6113,Třebíč,2000-4000
+6114,Velké Mez,4000-40000
+6115,Žďár na,4000-40000
+6201,Blansko,1000-2000
+6202,Boskovice,1000-2000
+6203,Brno,600-1000
+6204,Břeclav,1000-2000
+6205,Bučovice,2000-4000
+6206,Hodonín,1000-2000
+6207,Hustopeče,4000-40000
+6208,Ivančice,1000-2000
+6209,Kuřim,2000-4000
+6210,Kyjov,2000-4000
+6211,Mikulov,4000-40000
+6212,Moravský,600-1000
+6213,Pohořelic,2000-4000
+6214,Rosice,1000-2000
+6215,Slavkov u,4000-40000
+6216,Šlapanice,1000-2000
+6217,Tišnov,1000-2000
+6218,Veselí na,1000-2000
+6219,Vyškov,2000-4000
+6220,Znojmo,4000-40000
+6221,Židlochov,1000-2000
+7101,Hranice,1000-2000
+7102,Jeseník,2000-4000
+7103,Konice,žádný psycholog
+7104,Lipník na,1000-2000
+7105,Litovel,4000-40000
+7106,Mohelnice,2000-4000
+7107,Olomouc,600-1000
+7108,Prostějov,1000-2000
+7109,Přerov,1000-2000
+7110,Šternberk,600-1000
+7111,Šumperk,1000-2000
+7112,Uničov,2000-4000
+7113,Zábřeh,2000-4000
+7201,Bystřice,600-1000
+7202,Holešov,1000-2000
+7203,Kroměří,600-1000
+7204,Luhačovic,2000-4000
+7205,Otrokovice,600-1000
+7206,Rožnov po,1000-2000
+7207,Uherské H,1000-2000
+7208,Uherský B,4000-40000
+7209,Valašské,4000-40000
+7210,Valašské,1000-2000
+7211,Vizovice,2000-4000
+7212,Vsetín,1000-2000
+7213,Zlín,2000-4000
+8101,Bílovec,2000-4000
+8102,Bohumín,1000-2000
+8103,Bruntál,1000-2000
+8104,Český T,2000-4000
+8105,Frenštát,600-1000
+8106,Frýdek-M,1000-2000
+8107,Frýdlant,4000-40000
+8108,Havířov,4000-40000
+8109,Hlučín,2000-4000
+8110,Jablunkov,1000-2000
+8111,Karviná,1000-2000
+8112,Kopřivnic,1000-2000
+8113,Kravaře,žádný psycholog
+8114,Krnov,2000-4000
+8115,Nový Jič,4000-40000
+8116,Odry,600-1000
+8117,Opava,2000-4000
+8118,Orlová,1000-2000
+8119,Ostrava,1000-2000
+8120,Rýmařov,žádný psycholog
+8121,Třinec,1000-2000
+8122,Vítkov,1000-2000
