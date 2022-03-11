@@ -1,0 +1,86 @@
+[
+    {
+        "id": 19,
+        "pedagogu": 165.6,
+        "pripadu": 31174,
+        "zlomek": 188.2488
+    },
+    {
+        "id": 27,
+        "pedagogu": 91.0,
+        "pripadu": 25721,
+        "zlomek": 282.6484
+    },
+    {
+        "id": 35,
+        "pedagogu": 49.1,
+        "pripadu": 14535,
+        "zlomek": 296.0285
+    },
+    {
+        "id": 43,
+        "pedagogu": 44.5,
+        "pripadu": 13700,
+        "zlomek": 307.8652
+    },
+    {
+        "id": 51,
+        "pedagogu": 21.3,
+        "pripadu": 8194,
+        "zlomek": 384.6948
+    },
+    {
+        "id": 60,
+        "pedagogu": 63.6,
+        "pripadu": 22866,
+        "zlomek": 359.5283
+    },
+    {
+        "id": 78,
+        "pedagogu": 35.2,
+        "pripadu": 11913,
+        "zlomek": 338.4375
+    },
+    {
+        "id": 86,
+        "pedagogu": 46.6,
+        "pripadu": 13186,
+        "zlomek": 282.9614
+    },
+    {
+        "id": 94,
+        "pedagogu": 35.6,
+        "pripadu": 10419,
+        "zlomek": 292.6685
+    },
+    {
+        "id": 108,
+        "pedagogu": 44.5,
+        "pripadu": 11554,
+        "zlomek": 259.6404
+    },
+    {
+        "id": 116,
+        "pedagogu": 123.4,
+        "pripadu": 29670,
+        "zlomek": 240.4376
+    },
+    {
+        "id": 124,
+        "pedagogu": 62.7,
+        "pripadu": 20953,
+        "zlomek": 334.1786
+    },
+    {
+        "id": 132,
+        "pedagogu": 102.4,
+        "pripadu": 26271,
+        "zlomek": 256.5527
+    },
+    {
+        "id": 141,
+        "pedagogu": 57.5,
+        "pripadu": 14815,
+        "zlomek": 257.6522
+    }
+]
