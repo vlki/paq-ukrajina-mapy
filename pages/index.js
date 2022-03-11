@@ -47,7 +47,7 @@ export default function Home({ baseUrl }) {
               <h2>Ke stažení</h2>
 
               <a
-                href={baseUrl + embedConfig.id + ".png"}
+                href={baseUrl + "/" + embedConfig.id + ".png"}
                 download
                 className={styles.downloadLink}
               >
