@@ -101,6 +101,10 @@ const embedConfigs = [
     src: "/embed/ukrajinsti-zaci",
     id: "paq-ukrajina-ukrajinsti-zaci",
   },
+  {
+    src: "/embed/psychologove",
+    id: "paq-ukrajina-psychologove",
+  },
 ];
 
 const createEmbedCode = (embedConfig, baseUrl) => {
