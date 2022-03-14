@@ -26,7 +26,7 @@ export default function CatalogueLayout({ children, mapConfigs }) {
           </a>
         </Link>
         <p>
-          Interaktivní mapy ke studii od{" "}
+          Interaktivní mapy ke studii{" "}
           <a
             href="https://www.paqresearch.cz/"
             target="_blank"
