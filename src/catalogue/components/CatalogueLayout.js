@@ -54,7 +54,9 @@ export default function CatalogueLayout({ children, mapConfigs }) {
                       router.pathname === mapConfig.path ? "active" : ""
                     }`}
                   >
-                    <Link href={mapConfig.path}>{mapConfig.navLabel}</Link>
+                    <a href={router.basePath + mapConfig.path}>
+                      {mapConfig.navLabel}
+                    </a>
                   </li>
                 ))}
               </ul>
