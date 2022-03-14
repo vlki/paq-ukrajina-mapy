@@ -3,66 +3,72 @@ import Head from "next/head";
 import * as d3 from "d3";
 import { keyBy } from "lodash";
 
-import EmbedOkresyMap from "../../lib/embed/components/EmbedOkresyMap";
-import { usePostMessageWithHeight } from "../../lib/embed/hooks";
+import EmbedOkresyMap from "../../embed/components/EmbedOkresyMap";
+import { usePostMessageWithHeight } from "../../embed/hooks";
 import {
-  useAccommodationData,
+  useChildrenGroupsData,
   useKrajeData,
   useOkresyData,
-} from "../../lib/data/hooks";
-import styles from "../../styles/Embed.module.scss";
+} from "../../data/hooks";
+import styles from "../../pages_styles/Embed.module.scss";
 
-export default function EmbedAccommodation({ baseUrl }) {
+export default function EmbedChildrenGroups({ baseUrl }) {
   const okresyData = useOkresyData(baseUrl);
   const krajeData = useKrajeData(baseUrl);
-  const accommodationData = useAccommodationData(baseUrl);
-  const { containerRef } = usePostMessageWithHeight("paq-ukrajina-bydleni");
+  const childrenGroupsData = useChildrenGroupsData(baseUrl);
+  const { containerRef } = usePostMessageWithHeight(
+    "paq-ukrajina-detske-skupiny"
+  );
 
   const [selectedOkresId, setSelectedOkresId] = React.useState(null);
 
   const categories = [
-    { label: "500 a méně", color: "#FEF0D9" },
-    { label: "500–1000", color: "#C4D3C9" },
-    { label: "1000–1500", color: "#79ABB0" },
-    { label: "1500–2000", color: "#288893" },
-    { label: "2000 a více", color: "#005B6E" },
+    { label: "0 míst", color: "#FEF0D9" },
+    { label: "1-50", color: "#C4D3C9" },
+    { label: "50–100", color: "#79ABB0" },
+    { label: "100–200", color: "#288893" },
+    { label: "200 a více míst", color: "#005B6E" },
   ];
 
   const fillByOkresId = React.useMemo(() => {
-    if (!accommodationData) {
+    if (!childrenGroupsData) {
       return {};
     }
 
     const color = d3
       .scaleThreshold()
-      .domain([500, 1000, 1500, 2000, 100000])
+      .domain([1, 50, 100, 200, 100000])
       .range(["#FEF0D9", "#C4D3C9", "#79ABB0", "#288893", "#005B6E"]);
 
-    return accommodationData.reduce((carry, okresAccommodation) => {
+    return childrenGroupsData.reduce((carry, okresChildrenGroups) => {
       return {
         ...carry,
-        [okresAccommodation.id]: color(okresAccommodation.total_beds),
+        [okresChildrenGroups.id]: color(
+          okresChildrenGroups.kapacita !== undefined
+            ? okresChildrenGroups.kapacita
+            : 0
+        ),
       };
     }, {});
-  }, [accommodationData]);
+  }, [childrenGroupsData]);
 
-  const okresAccommodationById = React.useMemo(
-    () => keyBy(accommodationData, "id"),
-    [accommodationData]
+  const okresChildrenGroupsById = React.useMemo(
+    () => keyBy(childrenGroupsData, "id"),
+    [childrenGroupsData]
   );
 
-  if (!okresyData || !krajeData || !accommodationData) {
+  if (!okresyData || !krajeData || !childrenGroupsData) {
     return null;
   }
 
   return (
     <div className={styles.container}>
       <Head>
-        <title>Volná lůžka lůžek v bytech, hotelích, apod. v okresech</title>
+        <title>Kapacita dětských skupin v&nbsp;okresech</title>
       </Head>
 
       <main className={styles.container} ref={containerRef}>
-        <h1>Volná lůžka v bytech, hotelích, apod. v okresech</h1>
+        <h1>Kapacita dětských skupin v&nbsp;okresech</h1>
 
         <div className={styles.legend}>
           {categories.map((category) => (
@@ -96,39 +102,27 @@ export default function EmbedAccommodation({ baseUrl }) {
 
                 <div className="main-value-line">
                   <strong>
-                    {okresAccommodationById[okresId].total_beds.toLocaleString(
-                      "cs-CZ"
-                    )}{" "}
-                    volných lůžek celkem
+                    {okresChildrenGroupsById[okresId] !== undefined ? (
+                      <>
+                        {okresChildrenGroupsById[
+                          okresId
+                        ].kapacita.toLocaleString("cs-CZ")}{" "}
+                        míst v&nbsp;dětských skupinách
+                      </>
+                    ) : (
+                      <>0 míst v&nbsp;dětských skupinách</>
+                    )}
                   </strong>{" "}
                   <span className="muted">
-                    (s&nbsp;předpokladem 4&nbsp;lidí na byt)
+                    (obsazených i&nbsp;neobsazených)
                   </span>
                 </div>
                 <div className="value-line">
-                  {okresAccommodationById[
-                    okresId
-                  ].flats_sreality.toLocaleString("cs-CZ")}{" "}
-                  bytů k pronájmu{" "}
-                  <span className="muted">
-                    (Sreality.cz, začátek března 2022)
-                  </span>
-                </div>
-                <div className="value-line">
-                  {okresAccommodationById[
-                    okresId
-                  ].flats_municipal.toLocaleString("cs-CZ")}{" "}
-                  dostupných obecních bytů{" "}
-                  <span className="muted">
-                    (odhad 4&nbsp;% celkového fondu)
-                  </span>
-                </div>
-                <div className="value-line">
-                  {okresAccommodationById[okresId].hotel_beds.toLocaleString(
-                    "cs-CZ"
-                  )}{" "}
-                  odhadovaných volných lůžek v&nbsp;hotelích apod. zařízeních{" "}
-                  <span className="muted">(realitická varianta - květen)</span>
+                  {(okresChildrenGroupsById[okresId] !== undefined
+                    ? okresChildrenGroupsById[okresId].pocet_detskych_skupin
+                    : 0
+                  ).toLocaleString("cs-CZ")}{" "}
+                  dětských skupin
                 </div>
               </div>
             )}

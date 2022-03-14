@@ -3,14 +3,14 @@ import Head from "next/head";
 import * as d3 from "d3";
 import { keyBy } from "lodash";
 
-import EmbedOkresyMap from "../../lib/embed/components/EmbedOkresyMap";
-import { usePostMessageWithHeight } from "../../lib/embed/hooks";
+import EmbedOkresyMap from "../../embed/components/EmbedOkresyMap";
+import { usePostMessageWithHeight } from "../../embed/hooks";
 import {
   useAccommodationData,
   useKrajeData,
   useOkresyData,
-} from "../../lib/data/hooks";
-import styles from "../../styles/Embed.module.scss";
+} from "../../data/hooks";
+import styles from "../../pages_styles/Embed.module.scss";
 
 export default function EmbedHotelBeds({ baseUrl }) {
   const okresyData = useOkresyData(baseUrl);

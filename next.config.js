@@ -8,8 +8,9 @@ const nextConfig = {
 
   sassOptions: {
     includePaths: [
-      path.join(__dirname, "styles"),
-      path.join(__dirname, "lib", "embed", "styles"),
+      path.join(__dirname, "src", "pages_styles"),
+      path.join(__dirname, "src", "embed", "styles"),
+      path.join(__dirname, "src", "layout", "styles"),
     ],
     prependData: `$baseUrl: '${
       process.env.NODE_ENV === "production"
@@ -18,6 +19,7 @@ const nextConfig = {
     }';`,
   },
 
+  basePath: isProduction ? "/paq-ukrajina-mapy" : "/",
   assetPrefix: isProduction ? "/paq-ukrajina-mapy/" : "",
 };
 

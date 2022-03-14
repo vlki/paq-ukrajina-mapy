@@ -3,70 +3,62 @@ import Head from "next/head";
 import * as d3 from "d3";
 import { keyBy } from "lodash";
 
-import EmbedOkresyMap from "../../lib/embed/components/EmbedOkresyMap";
-import { usePostMessageWithHeight } from "../../lib/embed/hooks";
-import {
-  useAccommodationData,
-  useKrajeData,
-  useOkresyData,
-} from "../../lib/data/hooks";
-import styles from "../../styles/Embed.module.scss";
+import EmbedOrpMap from "../../embed/components/EmbedOrpMap";
+import { usePostMessageWithHeight } from "../../embed/hooks";
+import { useCapacitiesData, useKrajeData, useOrpData } from "../../data/hooks";
+import styles from "../../pages_styles/Embed.module.scss";
 
-export default function EmbedFlatsMunicipal({ baseUrl }) {
-  const okresyData = useOkresyData(baseUrl);
+export default function EmbedCapacityPreschools({ baseUrl }) {
+  const orpData = useOrpData(baseUrl);
   const krajeData = useKrajeData(baseUrl);
-  const accommodationData = useAccommodationData(baseUrl);
-  const { containerRef } = usePostMessageWithHeight("paq-ukrajina-byty-obecni");
+  const capacitiesData = useCapacitiesData(baseUrl);
+  const { containerRef } = usePostMessageWithHeight("paq-ukrajina-kapacity-ms");
 
-  const [selectedOkresId, setSelectedOkresId] = React.useState(null);
+  const [selectedOrpId, setSelectedOrpId] = React.useState(null);
 
   const categories = [
-    { label: "25 a méně", color: "#FEF0D9" },
-    { label: "25–50", color: "#C4D3C9" },
-    { label: "50–100", color: "#79ABB0" },
-    { label: "100–200", color: "#288893" },
-    { label: "200 a více", color: "#005B6E" },
+    { label: "0–60 %", color: "#FEF0D9" },
+    { label: "60–70 %", color: "#C4D3C9" },
+    { label: "70–80 %", color: "#79ABB0" },
+    { label: "80–90 %", color: "#288893" },
+    { label: "90–100 %", color: "#005B6E" },
   ];
 
-  const fillByOkresId = React.useMemo(() => {
-    if (!accommodationData) {
+  const fillByOrpId = React.useMemo(() => {
+    if (!capacitiesData) {
       return {};
     }
 
-    const color = d3
+    const capacityColor = d3
       .scaleThreshold()
-      .domain([25, 50, 100, 200, 100000])
+      .domain([60, 70, 80, 90, 100])
       .range(["#FEF0D9", "#C4D3C9", "#79ABB0", "#288893", "#005B6E"]);
 
-    return accommodationData.reduce((carry, okresAccommodation) => {
+    return capacitiesData.reduce((carry, orpCapacity) => {
       return {
         ...carry,
-        [okresAccommodation.id]: color(okresAccommodation.flats_municipal),
+        [orpCapacity.id]: capacityColor(orpCapacity.ms_naplnenost_22),
       };
     }, {});
-  }, [accommodationData]);
+  }, [capacitiesData]);
 
-  const okresAccommodationById = React.useMemo(
-    () => keyBy(accommodationData, "id"),
-    [accommodationData]
+  const orpCapacityById = React.useMemo(
+    () => keyBy(capacitiesData, "id"),
+    [capacitiesData]
   );
 
-  if (!okresyData || !krajeData || !accommodationData) {
+  if (!orpData || !krajeData || !capacitiesData) {
     return null;
   }
 
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Dostupné obecní byty v&nbsp;okresech (odhad 4&nbsp;% celkového fondu)
-        </title>
+        <title>Naplněnost mateřských škol v ORP</title>
       </Head>
 
       <main className={styles.container} ref={containerRef}>
-        <h1>
-          Dostupné obecní byty v&nbsp;okresech (odhad 4&nbsp;% celkového fondu)
-        </h1>
+        <h1>Naplněnost mateřských škol v&nbsp;ORP</h1>
 
         <div className={styles.legend}>
           {categories.map((category) => (
@@ -81,13 +73,13 @@ export default function EmbedFlatsMunicipal({ baseUrl }) {
         </div>
 
         <div className={styles.mapWrapper}>
-          <EmbedOkresyMap
-            okresyData={okresyData}
+          <EmbedOrpMap
+            orpData={orpData}
             krajeData={krajeData}
-            selectedOkresId={selectedOkresId}
-            setSelectedOkresId={setSelectedOkresId}
-            fillByOkresId={fillByOkresId}
-            renderTooltipContent={(okresId, feature) => (
+            selectedOrpId={selectedOrpId}
+            setSelectedOrpId={setSelectedOrpId}
+            fillByOrpId={fillByOrpId}
+            renderTooltipContent={(orpId, feature) => (
               <div className={styles.tooltipContent}>
                 <div className="tooltip-orp">
                   <div className="tooltip-orp-name">
@@ -100,14 +92,23 @@ export default function EmbedFlatsMunicipal({ baseUrl }) {
 
                 <div className="main-value-line">
                   <strong>
-                    {okresAccommodationById[
-                      okresId
-                    ].flats_municipal.toLocaleString("cs-CZ")}{" "}
-                    dostupných obecních bytů
-                  </strong>{" "}
-                  <span className="muted">
-                    (odhad 4&nbsp;% celkového fondu)
-                  </span>
+                    {Math.round(orpCapacityById[orpId].ms_naplnenost_22)} %{" "}
+                    naplněnost MŠ
+                  </strong>
+                </div>
+                <div className="value-line">
+                  {orpCapacityById[orpId].ms_kapacita.toLocaleString("cs-CZ")}{" "}
+                  celkem míst v MŠ
+                </div>
+                <div className="value-line">
+                  {orpCapacityById[orpId].volna_mista_ms.toLocaleString(
+                    "cs-CZ"
+                  )}{" "}
+                  volných míst
+                </div>
+                <div className="value-line">
+                  {orpCapacityById[orpId].pocet_ms.toLocaleString("cs-CZ")}{" "}
+                  mateřských škol
                 </div>
               </div>
             )}

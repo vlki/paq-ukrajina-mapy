@@ -3,50 +3,55 @@ import Head from "next/head";
 import * as d3 from "d3";
 import { keyBy } from "lodash";
 
-import EmbedKrajeMap from "../../lib/embed/components/EmbedKrajeMap";
-import { usePostMessageWithHeight } from "../../lib/embed/hooks";
-import { useCounsellingData, useKrajeData } from "../../lib/data/hooks";
-import styles from "../../styles/Embed.module.scss";
+import EmbedOkresyMap from "../../embed/components/EmbedOkresyMap";
+import { usePostMessageWithHeight } from "../../embed/hooks";
+import {
+  useAccommodationData,
+  useKrajeData,
+  useOkresyData,
+} from "../../data/hooks";
+import styles from "../../pages_styles/Embed.module.scss";
 
-export default function EmbedCounselling({ baseUrl }) {
+export default function EmbedFlatsMunicipal({ baseUrl }) {
+  const okresyData = useOkresyData(baseUrl);
   const krajeData = useKrajeData(baseUrl);
-  const counsellingData = useCounsellingData(baseUrl);
-  const { containerRef } = usePostMessageWithHeight("paq-ukrajina-poradny");
+  const accommodationData = useAccommodationData(baseUrl);
+  const { containerRef } = usePostMessageWithHeight("paq-ukrajina-byty-obecni");
 
-  const [selectedKrajId, setSelectedKrajId] = React.useState(null);
+  const [selectedOkresId, setSelectedOkresId] = React.useState(null);
 
   const categories = [
-    { label: "250 a méně", color: "#FEF0D9" },
-    { label: "250–275", color: "#C4D3C9" },
-    { label: "275–300", color: "#79ABB0" },
-    { label: "300–325", color: "#288893" },
-    { label: "325 a více", color: "#005B6E" },
+    { label: "25 a méně", color: "#FEF0D9" },
+    { label: "25–50", color: "#C4D3C9" },
+    { label: "50–100", color: "#79ABB0" },
+    { label: "100–200", color: "#288893" },
+    { label: "200 a více", color: "#005B6E" },
   ];
 
-  const fillByKrajId = React.useMemo(() => {
-    if (!counsellingData) {
+  const fillByOkresId = React.useMemo(() => {
+    if (!accommodationData) {
       return {};
     }
 
     const color = d3
       .scaleThreshold()
-      .domain([250, 275, 300, 325, 10000])
+      .domain([25, 50, 100, 200, 100000])
       .range(["#FEF0D9", "#C4D3C9", "#79ABB0", "#288893", "#005B6E"]);
 
-    return counsellingData.reduce((carry, krajCounselling) => {
+    return accommodationData.reduce((carry, okresAccommodation) => {
       return {
         ...carry,
-        [krajCounselling.id]: color(krajCounselling.zlomek),
+        [okresAccommodation.id]: color(okresAccommodation.flats_municipal),
       };
     }, {});
-  }, [counsellingData]);
+  }, [accommodationData]);
 
-  const krajCounsellingById = React.useMemo(
-    () => keyBy(counsellingData, "id"),
-    [counsellingData]
+  const okresAccommodationById = React.useMemo(
+    () => keyBy(accommodationData, "id"),
+    [accommodationData]
   );
 
-  if (!krajeData || !counsellingData) {
+  if (!okresyData || !krajeData || !accommodationData) {
     return null;
   }
 
@@ -54,13 +59,13 @@ export default function EmbedCounselling({ baseUrl }) {
     <div className={styles.container}>
       <Head>
         <title>
-          Počet případů na pedagogického pracovníka poradny v&nbsp;krajích
+          Dostupné obecní byty v&nbsp;okresech (odhad 4&nbsp;% celkového fondu)
         </title>
       </Head>
 
       <main className={styles.container} ref={containerRef}>
         <h1>
-          Počet případů na pedagogického pracovníka poradny v&nbsp;krajích
+          Dostupné obecní byty v&nbsp;okresech (odhad 4&nbsp;% celkového fondu)
         </h1>
 
         <div className={styles.legend}>
@@ -76,32 +81,33 @@ export default function EmbedCounselling({ baseUrl }) {
         </div>
 
         <div className={styles.mapWrapper}>
-          <EmbedKrajeMap
+          <EmbedOkresyMap
+            okresyData={okresyData}
             krajeData={krajeData}
-            selectedKrajId={selectedKrajId}
-            setSelectedKrajId={setSelectedKrajId}
-            fillByKrajId={fillByKrajId}
-            renderTooltipContent={(krajId, feature) => (
+            selectedOkresId={selectedOkresId}
+            setSelectedOkresId={setSelectedOkresId}
+            fillByOkresId={fillByOkresId}
+            renderTooltipContent={(okresId, feature) => (
               <div className={styles.tooltipContent}>
                 <div className="tooltip-orp">
                   <div className="tooltip-orp-name">
                     {feature.properties.NAZEV}
                   </div>
+                  <div className="tooltip-region">
+                    {feature.properties.VUSC_NAZEV}
+                  </div>
                 </div>
 
                 <div className="main-value-line">
                   <strong>
-                    {Math.round(krajCounsellingById[krajId].zlomek)} případů na
-                    jednoho pedagogického pracovníka poradny
-                  </strong>
-                </div>
-                <div className="value-line">
-                  {krajCounsellingById[krajId].pripadu.toLocaleString("cs-CZ")}{" "}
-                  případů celkem
-                </div>
-                <div className="value-line">
-                  {krajCounsellingById[krajId].pedagogu.toLocaleString("cs-CZ")}{" "}
-                  úvazků pedagogických pracovníků poraden
+                    {okresAccommodationById[
+                      okresId
+                    ].flats_municipal.toLocaleString("cs-CZ")}{" "}
+                    dostupných obecních bytů
+                  </strong>{" "}
+                  <span className="muted">
+                    (odhad 4&nbsp;% celkového fondu)
+                  </span>
                 </div>
               </div>
             )}

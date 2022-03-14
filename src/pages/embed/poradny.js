@@ -3,57 +3,50 @@ import Head from "next/head";
 import * as d3 from "d3";
 import { keyBy } from "lodash";
 
-import EmbedOkresyMap from "../../lib/embed/components/EmbedOkresyMap";
-import { usePostMessageWithHeight } from "../../lib/embed/hooks";
-import {
-  useAccommodationData,
-  useKrajeData,
-  useOkresyData,
-} from "../../lib/data/hooks";
-import styles from "../../styles/Embed.module.scss";
+import EmbedKrajeMap from "../../embed/components/EmbedKrajeMap";
+import { usePostMessageWithHeight } from "../../embed/hooks";
+import { useCounsellingData, useKrajeData } from "../../data/hooks";
+import styles from "../../pages_styles/Embed.module.scss";
 
-export default function EmbedFlatsSreality({ baseUrl }) {
-  const okresyData = useOkresyData(baseUrl);
+export default function EmbedCounselling({ baseUrl }) {
   const krajeData = useKrajeData(baseUrl);
-  const accommodationData = useAccommodationData(baseUrl);
-  const { containerRef } = usePostMessageWithHeight(
-    "paq-ukrajina-byty-sreality"
-  );
+  const counsellingData = useCounsellingData(baseUrl);
+  const { containerRef } = usePostMessageWithHeight("paq-ukrajina-poradny");
 
-  const [selectedOkresId, setSelectedOkresId] = React.useState(null);
+  const [selectedKrajId, setSelectedKrajId] = React.useState(null);
 
   const categories = [
-    { label: "25 a méně", color: "#FEF0D9" },
-    { label: "25–50", color: "#C4D3C9" },
-    { label: "50–100", color: "#79ABB0" },
-    { label: "100–200", color: "#288893" },
-    { label: "200 a více", color: "#005B6E" },
+    { label: "250 a méně", color: "#FEF0D9" },
+    { label: "250–275", color: "#C4D3C9" },
+    { label: "275–300", color: "#79ABB0" },
+    { label: "300–325", color: "#288893" },
+    { label: "325 a více", color: "#005B6E" },
   ];
 
-  const fillByOkresId = React.useMemo(() => {
-    if (!accommodationData) {
+  const fillByKrajId = React.useMemo(() => {
+    if (!counsellingData) {
       return {};
     }
 
     const color = d3
       .scaleThreshold()
-      .domain([25, 50, 100, 200, 100000])
+      .domain([250, 275, 300, 325, 10000])
       .range(["#FEF0D9", "#C4D3C9", "#79ABB0", "#288893", "#005B6E"]);
 
-    return accommodationData.reduce((carry, okresAccommodation) => {
+    return counsellingData.reduce((carry, krajCounselling) => {
       return {
         ...carry,
-        [okresAccommodation.id]: color(okresAccommodation.flats_sreality),
+        [krajCounselling.id]: color(krajCounselling.zlomek),
       };
     }, {});
-  }, [accommodationData]);
+  }, [counsellingData]);
 
-  const okresAccommodationById = React.useMemo(
-    () => keyBy(accommodationData, "id"),
-    [accommodationData]
+  const krajCounsellingById = React.useMemo(
+    () => keyBy(counsellingData, "id"),
+    [counsellingData]
   );
 
-  if (!okresyData || !krajeData || !accommodationData) {
+  if (!krajeData || !counsellingData) {
     return null;
   }
 
@@ -61,14 +54,13 @@ export default function EmbedFlatsSreality({ baseUrl }) {
     <div className={styles.container}>
       <Head>
         <title>
-          Byty k pronájmu na Sreality.cz v okresech (začátek března 2022)
+          Počet případů na pedagogického pracovníka poradny v&nbsp;krajích
         </title>
       </Head>
 
       <main className={styles.container} ref={containerRef}>
         <h1>
-          Byty k&nbsp;pronájmu na&nbsp;Sreality.cz v&nbsp;okresech (začátek
-          března 2022)
+          Počet případů na pedagogického pracovníka poradny v&nbsp;krajích
         </h1>
 
         <div className={styles.legend}>
@@ -84,33 +76,32 @@ export default function EmbedFlatsSreality({ baseUrl }) {
         </div>
 
         <div className={styles.mapWrapper}>
-          <EmbedOkresyMap
-            okresyData={okresyData}
+          <EmbedKrajeMap
             krajeData={krajeData}
-            selectedOkresId={selectedOkresId}
-            setSelectedOkresId={setSelectedOkresId}
-            fillByOkresId={fillByOkresId}
-            renderTooltipContent={(okresId, feature) => (
+            selectedKrajId={selectedKrajId}
+            setSelectedKrajId={setSelectedKrajId}
+            fillByKrajId={fillByKrajId}
+            renderTooltipContent={(krajId, feature) => (
               <div className={styles.tooltipContent}>
                 <div className="tooltip-orp">
                   <div className="tooltip-orp-name">
                     {feature.properties.NAZEV}
                   </div>
-                  <div className="tooltip-region">
-                    {feature.properties.VUSC_NAZEV}
-                  </div>
                 </div>
 
                 <div className="main-value-line">
                   <strong>
-                    {okresAccommodationById[
-                      okresId
-                    ].flats_sreality.toLocaleString("cs-CZ")}{" "}
-                    bytů k pronájmu
-                  </strong>{" "}
-                  <span className="muted">
-                    (Sreality.cz, začátek března 2022)
-                  </span>
+                    {Math.round(krajCounsellingById[krajId].zlomek)} případů na
+                    jednoho pedagogického pracovníka poradny
+                  </strong>
+                </div>
+                <div className="value-line">
+                  {krajCounsellingById[krajId].pripadu.toLocaleString("cs-CZ")}{" "}
+                  případů celkem
+                </div>
+                <div className="value-line">
+                  {krajCounsellingById[krajId].pedagogu.toLocaleString("cs-CZ")}{" "}
+                  úvazků pedagogických pracovníků poraden
                 </div>
               </div>
             )}

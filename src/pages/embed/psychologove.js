@@ -3,59 +3,57 @@ import Head from "next/head";
 import * as d3 from "d3";
 import { keyBy } from "lodash";
 
-import EmbedOrpMap from "../../lib/embed/components/EmbedOrpMap";
-import { usePostMessageWithHeight } from "../../lib/embed/hooks";
+import EmbedOrpMap from "../../embed/components/EmbedOrpMap";
+import { usePostMessageWithHeight } from "../../embed/hooks";
 import {
-  useUkrainianPupilsData,
+  usePsychologistsData,
   useKrajeData,
   useOrpData,
-} from "../../lib/data/hooks";
-import styles from "../../styles/Embed.module.scss";
+} from "../../data/hooks";
+import styles from "../../pages_styles/Embed.module.scss";
 
-export default function EmbedUkrainianPupils({ baseUrl }) {
+export default function EmbedPsychologists({ baseUrl }) {
   const orpData = useOrpData(baseUrl);
   const krajeData = useKrajeData(baseUrl);
-  const ukrainianPupilsData = useUkrainianPupilsData(baseUrl);
+  const psychologistsData = usePsychologistsData(baseUrl);
   const { containerRef } = usePostMessageWithHeight(
-    "paq-ukrajina-ukrajinsti-zaci"
+    "paq-ukrajina-psychologove"
   );
 
   const [selectedOrpId, setSelectedOrpId] = React.useState(null);
 
   const categories = [
-    { label: "25 a méně", color: "#FEF0D9" },
-    { label: "25–50", color: "#C4D3C9" },
-    { label: "50–100", color: "#79ABB0" },
-    { label: "100–200", color: "#288893" },
-    { label: "200 a více", color: "#005B6E" },
+    { label: "600-1000", color: "#FEF0D9" },
+    { label: "1000-2000", color: "#C4D3C9" },
+    { label: "2000-4000", color: "#79ABB0" },
+    { label: "4000-40000", color: "#288893" },
+    { label: "žádný psycholog", color: "#747474" },
   ];
 
   const fillByOrpId = React.useMemo(() => {
-    if (!ukrainianPupilsData) {
+    if (!psychologistsData) {
       return {};
     }
 
-    const color = d3
-      .scaleThreshold()
-      .domain([25, 50, 100, 200, 10000])
-      .range(["#FEF0D9", "#C4D3C9", "#79ABB0", "#288893", "#005B6E"]);
+    const color = categories.reduce((carry, category) => {
+      return { ...carry, [category.label]: category.color };
+    }, {});
 
-    return ukrainianPupilsData.reduce((carry, orpUkrainianPupils) => {
+    return psychologistsData.reduce((carry, orpPsychologists) => {
       return {
         ...carry,
-        [orpUkrainianPupils.id]: color(
-          orpUkrainianPupils.ukrajinci_na_10000_zaku
-        ),
+        [orpPsychologists.id]:
+          color[orpPsychologists.psycholog_uvazek_na_pocet_zaku],
       };
     }, {});
-  }, [ukrainianPupilsData]);
+  }, [psychologistsData, categories]);
 
-  const orpUkrainianPupilsById = React.useMemo(
-    () => keyBy(ukrainianPupilsData, "id"),
-    [ukrainianPupilsData]
+  const orpPsychologistsById = React.useMemo(
+    () => keyBy(psychologistsData, "id"),
+    [psychologistsData]
   );
 
-  if (!orpData || !krajeData || !ukrainianPupilsData) {
+  if (!orpData || !krajeData || !psychologistsData) {
     return null;
   }
 
@@ -63,14 +61,12 @@ export default function EmbedUkrainianPupils({ baseUrl }) {
     <div className={styles.container}>
       <Head>
         <title>
-          Počet ukrajinských žáků v&nbsp;přepočtu na 10&nbsp;000 žáků v&nbsp;ORP
+          Počet žáků v&nbsp;přepočtu na jednoho psychologa v&nbsp;ORP
         </title>
       </Head>
 
       <main className={styles.container} ref={containerRef}>
-        <h1>
-          Počet ukrajinských žáků v&nbsp;přepočtu na 10&nbsp;000 žáků v&nbsp;ORP
-        </h1>
+        <h1>Počet žáků v&nbsp;přepočtu na jednoho psychologa v&nbsp;ORP</h1>
 
         <div className={styles.legend}>
           {categories.map((category) => (
@@ -79,7 +75,7 @@ export default function EmbedUkrainianPupils({ baseUrl }) {
                 className="dot"
                 style={{ backgroundColor: category.color }}
               ></span>
-              {category.label}
+              {category.label.replace("-", "–")}
             </div>
           ))}
         </div>
@@ -104,23 +100,18 @@ export default function EmbedUkrainianPupils({ baseUrl }) {
 
                 <div className="main-value-line">
                   <strong>
-                    {Math.round(
-                      orpUkrainianPupilsById[orpId].ukrajinci_na_10000_zaku
-                    )}{" "}
-                    ukrajinských žáků v přepočtu na 10 000 žáků
+                    {orpPsychologistsById[orpId]
+                      .psycholog_uvazek_na_pocet_zaku === "žádný psycholog" ? (
+                      "žádný psycholog"
+                    ) : (
+                      <>
+                        {orpPsychologistsById[
+                          orpId
+                        ].psycholog_uvazek_na_pocet_zaku.replace("-", "–")}{" "}
+                        žáků v přepočtu na jednoho psychologa
+                      </>
+                    )}
                   </strong>
-                </div>
-                <div className="value-line">
-                  {orpUkrainianPupilsById[orpId].ukrajinsti_zaci.toLocaleString(
-                    "cs-CZ"
-                  )}{" "}
-                  ukrajinských žáků
-                </div>
-                <div className="value-line">
-                  {orpUkrainianPupilsById[orpId].zaci_celkem.toLocaleString(
-                    "cs-CZ"
-                  )}{" "}
-                  všech žáků
                 </div>
               </div>
             )}

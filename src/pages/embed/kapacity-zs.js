@@ -3,14 +3,10 @@ import Head from "next/head";
 import * as d3 from "d3";
 import { keyBy } from "lodash";
 
-import EmbedOrpMap from "../../lib/embed/components/EmbedOrpMap";
-import { usePostMessageWithHeight } from "../../lib/embed/hooks";
-import {
-  useCapacitiesData,
-  useKrajeData,
-  useOrpData,
-} from "../../lib/data/hooks";
-import styles from "../../styles/Embed.module.scss";
+import EmbedOrpMap from "../../embed/components/EmbedOrpMap";
+import { usePostMessageWithHeight } from "../../embed/hooks";
+import { useCapacitiesData, useKrajeData, useOrpData } from "../../data/hooks";
+import styles from "../../pages_styles/Embed.module.scss";
 
 export default function EmbedCapacityElementarySchools({ baseUrl }) {
   const orpData = useOrpData(baseUrl);
