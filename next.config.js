@@ -19,7 +19,7 @@ const nextConfig = {
     }';`,
   },
 
-  basePath: isProduction ? "/paq-ukrajina-mapy" : "/",
+  basePath: isProduction ? "/paq-ukrajina-mapy" : "",
   assetPrefix: isProduction ? "/paq-ukrajina-mapy/" : "",
 };
 

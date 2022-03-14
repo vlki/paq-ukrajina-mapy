@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 
-import MainLayout from "../layout/components/MainLayout";
-import mapConfigs from "./_map_configs";
-import styles from "../pages_styles/MapPage.module.scss";
+import CatalogueLayout from "./CatalogueLayout";
+import mapConfigs from "../mapConfigs";
+import styles from "../styles/MapPage.module.scss";
 
 const MapPage = ({ baseUrl }) => {
   const router = useRouter();
@@ -12,7 +12,7 @@ const MapPage = ({ baseUrl }) => {
   );
 
   return (
-    <MainLayout mapConfigs={mapConfigs}>
+    <CatalogueLayout mapConfigs={mapConfigs}>
       <article className={styles.container}>
         <div
           dangerouslySetInnerHTML={{
@@ -36,7 +36,7 @@ const MapPage = ({ baseUrl }) => {
           Stáhnout jako .png
         </a>
       </article>
-    </MainLayout>
+    </CatalogueLayout>
   );
 };
 

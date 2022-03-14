@@ -1,4 +1,7 @@
-import { MapPage, getMapPageStaticProps } from "./_map_page";
+import {
+  MapPage,
+  getMapPageStaticProps,
+} from "../catalogue/components/MapPage";
 
 export default function UkrainianPupils({ baseUrl }) {
   return <MapPage baseUrl={baseUrl} />;

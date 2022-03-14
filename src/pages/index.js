@@ -1,12 +1,12 @@
 import React from "react";
 
-import mapConfigs from "./_map_configs";
-import MainLayout from "../layout/components/MainLayout";
+import mapConfigs from "../catalogue/mapConfigs";
+import CatalogueLayout from "../catalogue/components/CatalogueLayout";
 import styles from "../pages_styles/Home.module.scss";
 
 export default function Home() {
   return (
-    <MainLayout mapConfigs={mapConfigs}>
+    <CatalogueLayout mapConfigs={mapConfigs}>
       <article className={styles.container}>
         <p>
           Interaktivní mapy umožňují zobrazení podrobnějších informací po výběru
@@ -14,6 +14,6 @@ export default function Home() {
         </p>
         <p>Pokračujte výběrem mapy z navigačního menu.</p>
       </article>
-    </MainLayout>
+    </CatalogueLayout>
   );
 }

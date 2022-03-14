@@ -4,9 +4,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import groupBy from "lodash/groupBy";
 
-import styles from "../styles/MainLayout.module.scss";
+import styles from "../styles/CatalogueLayout.module.scss";
 
-export default function MainLayout({ children, mapConfigs }) {
+export default function CatalogueLayout({ children, mapConfigs }) {
   const router = useRouter();
 
   const mapConfigsByCategory = groupBy(mapConfigs, "category");
