@@ -29,17 +29,17 @@ const mapConfigs = [
   },
 
   {
-    path: "/kapacity-zs",
-    navLabel: "Kapacity základních škol",
-    embedSrc: "/embed/kapacity-zs",
-    embedId: "paq-ukrajina-kapacity-zs",
+    path: "/naplnenost-zs",
+    navLabel: "Naplněnost základních škol",
+    embedSrc: "/embed/naplnenost-zs",
+    embedId: "paq-ukrajina-naplnenost-zs",
     category: "Vzdělávání",
   },
   {
-    path: "/kapacity-ms",
-    navLabel: "Kapacity mateřských škol",
-    embedSrc: "/embed/kapacity-ms",
-    embedId: "paq-ukrajina-kapacity-ms",
+    path: "/naplnenost-ms",
+    navLabel: "Naplněnost mateřských škol",
+    embedSrc: "/embed/naplnenost-ms",
+    embedId: "paq-ukrajina-naplnenost-ms",
     category: "Vzdělávání",
   },
   {

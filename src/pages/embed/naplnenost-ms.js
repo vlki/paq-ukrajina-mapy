@@ -8,11 +8,13 @@ import { usePostMessageWithHeight } from "../../embed/hooks";
 import { useCapacitiesData, useKrajeData, useOrpData } from "../../data/hooks";
 import styles from "../../pages_styles/Embed.module.scss";
 
-export default function EmbedCapacityElementarySchools({ baseUrl }) {
+export default function EmbedCapacityPreschools({ baseUrl }) {
   const orpData = useOrpData(baseUrl);
   const krajeData = useKrajeData(baseUrl);
   const capacitiesData = useCapacitiesData(baseUrl);
-  const { containerRef } = usePostMessageWithHeight("paq-ukrajina-kapacity-zs");
+  const { containerRef } = usePostMessageWithHeight(
+    "paq-ukrajina-naplnenost-ms"
+  );
 
   const [selectedOrpId, setSelectedOrpId] = React.useState(null);
 
@@ -37,7 +39,7 @@ export default function EmbedCapacityElementarySchools({ baseUrl }) {
     return capacitiesData.reduce((carry, orpCapacity) => {
       return {
         ...carry,
-        [orpCapacity.id]: capacityColor(orpCapacity.zs_naplnenost_22),
+        [orpCapacity.id]: capacityColor(orpCapacity.ms_naplnenost_22),
       };
     }, {});
   }, [capacitiesData]);
@@ -54,11 +56,11 @@ export default function EmbedCapacityElementarySchools({ baseUrl }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Naplněnost základních škol v ORP</title>
+        <title>Naplněnost mateřských škol v ORP</title>
       </Head>
 
       <main className={styles.container} ref={containerRef}>
-        <h1>Naplněnost základních škol v&nbsp;ORP</h1>
+        <h1>Naplněnost mateřských škol v&nbsp;ORP</h1>
 
         <div className={styles.legend}>
           {categories.map((category) => (
@@ -92,23 +94,23 @@ export default function EmbedCapacityElementarySchools({ baseUrl }) {
 
                 <div className="main-value-line">
                   <strong>
-                    {Math.round(orpCapacityById[orpId].zs_naplnenost_22)} %{" "}
-                    naplněnost ZŠ
+                    {Math.round(orpCapacityById[orpId].ms_naplnenost_22)} %{" "}
+                    naplněnost MŠ
                   </strong>
                 </div>
                 <div className="value-line">
-                  {orpCapacityById[orpId].zs_kapacita.toLocaleString("cs-CZ")}{" "}
-                  celkem míst v ZŠ
+                  {orpCapacityById[orpId].ms_kapacita.toLocaleString("cs-CZ")}{" "}
+                  celkem míst v MŠ
                 </div>
                 <div className="value-line">
-                  {orpCapacityById[orpId].volna_mista_zs.toLocaleString(
+                  {orpCapacityById[orpId].volna_mista_ms.toLocaleString(
                     "cs-CZ"
                   )}{" "}
                   volných míst
                 </div>
                 <div className="value-line">
-                  {orpCapacityById[orpId].pocet_zs.toLocaleString("cs-CZ")}{" "}
-                  základních škol
+                  {orpCapacityById[orpId].pocet_ms.toLocaleString("cs-CZ")}{" "}
+                  mateřských škol
                 </div>
               </div>
             )}
