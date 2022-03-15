@@ -52,7 +52,7 @@ if __name__ == "__main__":
         okres_output_data['flats_sreality'] = int(okres_source_data['Nabídka bytů k pronájmu (SReality, začátek března 2023)'])
         okres_output_data['flats_municipal'] = int(okres_source_data['Dostupné obecné byty (odhad 4 % celkového fondu)'])
         okres_output_data['hotel_beds'] = int(okres_source_data['Odhad počtu volných lůžek v hotelích apod. zařízeních (realitická varianta - květen)'])
-        okres_output_data['total_beds'] = int(okres_source_data['Celková kapacita lůžek (předpoklad 4 lidí na byt)'])
+        okres_output_data['total_beds'] = int(okres_source_data['Celková kapacita lůžek (předpoklad 3 lidí na byt)'])
 
         output_data.append(okres_output_data)
 

@@ -102,7 +102,7 @@ export default function EmbedAccommodation({ baseUrl }) {
                     volných lůžek celkem
                   </strong>{" "}
                   <span className="muted">
-                    (s&nbsp;předpokladem 4&nbsp;lidí na byt)
+                    (s&nbsp;předpokladem 3&nbsp;lidí na byt)
                   </span>
                 </div>
                 <div className="value-line">
