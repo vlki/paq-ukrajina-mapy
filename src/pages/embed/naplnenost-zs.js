@@ -119,6 +119,17 @@ export default function EmbedCapacityElementarySchools({ baseUrl }) {
 
         <div className={styles.footer}>
           <div className="footer-item">
+            Ze studie{" "}
+            <a
+              href="https://www.paqresearch.cz/post/integrace-ukrajinskych-uprchl%C3%ADku-v-cr-2022"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Integrace ukrajinských uprchlíků v ČR 2022+
+            </a>
+          </div>
+          <div className="footer-separator"> &nbsp;·&nbsp; </div>
+          <div className="footer-item">
             Zdroj dat:{" "}
             <a
               href="https://www.paqresearch.cz/"

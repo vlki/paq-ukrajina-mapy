@@ -57,6 +57,7 @@
 
   [class~="footer-separator"] {
     margin: 0 8px;
+    display: inline-block;
   }
 
   a {
@@ -75,16 +76,22 @@
   }
 }
 
-@media screen and (max-width: 399.9px) {
+@media screen and (max-width: 619.9px) {
   .footer {
     [class~="footer-item"] {
-      margin: 0 0 4px 0;
+      margin: 0 0 5px 0;
       display: block;
     }
 
     [class~="footer-separator"] {
       display: none;
     }
+  }
+}
+
+@media screen and (max-width: 399.9px) {
+  .footer {
+    text-align: left;
   }
 }
 
